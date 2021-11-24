@@ -1,4 +1,4 @@
-# STE-CNF
+# LC-CNF
 Injecting explicit logical constraints (CNF) into neural network via Straight-Through-Estimators 
 
 ## Introduction
