@@ -1,0 +1,134 @@
+####################
+# train CNN with STE on Park 70k dataset
+####################
+
+python main.py --domain sudokucnf --reg cnf bound --epochs 30 --gpu --bn --checkAcc --bar --folder PATH --save sudoku
+device is cuda
+The whole dataset contains 70000 data instances
+
+The CNF is represented by a matrix C of shape torch.Size([8991, 729]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [27:06<00:00, 34.44it/s]
+Storing the trained model into PATH/sudoku_epoch_1.pt
+71.82   0.01    71.65   0.01
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:41<00:00, 34.96it/s]
+Storing the trained model into PATH/sudoku_epoch_2.pt
+76.08   0.13    75.91   0.09
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:43<00:00, 34.91it/s]
+Storing the trained model into PATH/sudoku_epoch_3.pt
+77.32   0.24    77.06   0.22
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:44<00:00, 34.90it/s]
+Storing the trained model into PATH/sudoku_epoch_4.pt
+78.43   0.38    78.15   0.29
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:40<00:00, 34.99it/s]
+Storing the trained model into PATH/sudoku_epoch_5.pt
+79.01   0.41    78.73   0.30
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:44<00:00, 34.89it/s]
+Storing the trained model into PATH/sudoku_epoch_6.pt
+79.51   0.61    79.21   0.44
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:33<00:00, 35.15it/s]
+Storing the trained model into PATH/sudoku_epoch_7.pt
+79.98   0.75    79.61   0.53
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:32<00:00, 35.16it/s]
+Storing the trained model into PATH/sudoku_epoch_8.pt
+80.49   0.90    80.05   0.59
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:37<00:00, 35.06it/s]
+Storing the trained model into PATH/sudoku_epoch_9.pt
+80.88   1.17    80.43   0.69
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:25<00:00, 35.32it/s]
+Storing the trained model into PATH/sudoku_epoch_10.pt
+81.35   1.33    80.85   0.71
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:22<00:00, 35.39it/s]
+Storing the trained model into PATH/sudoku_epoch_11.pt
+81.75   1.56    81.24   0.90
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:33<00:00, 35.14it/s]
+Storing the trained model into PATH/sudoku_epoch_12.pt
+81.99   1.69    81.43   0.91
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:34<00:00, 35.13it/s]
+Storing the trained model into PATH/sudoku_epoch_13.pt
+82.21   2.03    81.57   1.03
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:34<00:00, 35.12it/s]
+Storing the trained model into PATH/sudoku_epoch_14.pt
+82.68   2.37    81.96   1.09
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:42<00:00, 34.94it/s]
+Storing the trained model into PATH/sudoku_epoch_15.pt
+83.24   2.61    82.53   1.18
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:32<00:00, 35.17it/s]
+Storing the trained model into PATH/sudoku_epoch_16.pt
+83.21   2.80    82.55   1.27
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:43<00:00, 34.92it/s]
+Storing the trained model into PATH/sudoku_epoch_17.pt
+83.54   2.92    82.83   1.31
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:17<00:00, 35.50it/s]
+Storing the trained model into PATH/sudoku_epoch_18.pt
+83.75   3.27    82.98   1.54
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:44<00:00, 34.89it/s]
+Storing the trained model into PATH/sudoku_epoch_19.pt
+84.11   3.46    83.34   1.59
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:38<00:00, 35.04it/s]
+Storing the trained model into PATH/sudoku_epoch_20.pt
+84.31   3.66    83.54   1.95
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:50<00:00, 34.77it/s]
+Storing the trained model into PATH/sudoku_epoch_21.pt
+84.55   3.73    83.75   1.93
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:27<00:00, 35.27it/s]
+Storing the trained model into PATH/sudoku_epoch_22.pt
+84.55   3.31    83.74   1.72
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:36<00:00, 35.08it/s]
+Storing the trained model into PATH/sudoku_epoch_23.pt
+84.69   3.51    83.87   1.87
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:08<00:00, 35.71it/s]
+Storing the trained model into PATH/sudoku_epoch_24.pt
+84.90   4.10    84.04   1.97
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:37<00:00, 35.06it/s]
+Storing the trained model into PATH/sudoku_epoch_25.pt
+85.20   4.15    84.31   2.07
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:30<00:00, 35.22it/s]
+Storing the trained model into PATH/sudoku_epoch_26.pt
+85.28   4.18    84.36   2.09
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [25:58<00:00, 35.93it/s]
+Storing the trained model into PATH/sudoku_epoch_27.pt
+85.47   4.40    84.56   2.36
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:14<00:00, 35.57it/s]
+Storing the trained model into PATH/sudoku_epoch_28.pt
+85.73   4.86    84.78   2.46
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:52<00:00, 34.73it/s]
+Storing the trained model into PATH/sudoku_epoch_29.pt
+85.65   4.55    84.73   2.35
+100%|████████████████████████████████████████████████████████████████| 56000/56000 [26:50<00:00, 34.77it/s]
+Storing the trained model into PATH/sudoku_epoch_30.pt
+85.86   4.91    84.90   2.38
+--- total time from beginning: 48754 seconds ---
+
+
+
+####################
+# Test on Park 70k
+####################
+
+python inference_trick.py --gpu --bn --domain sudokucnf --folder PATH
+device is cuda
+The whole dataset contains 70000 data instances
+100%|████████████████████████████████████████████████████████████████████| 438/438 [05:36<00:00,  1.30it/s]
+model: PATH/sudoku_epoch_30.pt,         0.9935  0.9370
+
+
+
+####################
+# Test on Palm
+####################
+
+python inference_trick.py --gpu --bn --domain sudokuPalmcnf --folder PATH
+device is cuda
+Reading Sudoku data from ./data/palm_sudoku/train.csv
+Reading Sudoku data from ./data/palm_sudoku/test.csv
+Reading Sudoku data from ./data/palm_sudoku/test.csv
+Test on the complete Palm test data with 17~34 given numbers
+100%|████████████████████████████████████████████████████████████████████| 563/563 [09:18<00:00,  1.01it/s]
+model: PATH/sudoku_epoch_30.pt,         0.7483  0.2737

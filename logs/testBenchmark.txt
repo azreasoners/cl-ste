@@ -1,0 +1,1579 @@
+$ bash testBenchmark.sh 
+========== add2x2 ==========
+
+
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([76, 476]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  1.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ..., -1.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+96.80	98.15
+--- total time from beginning: 51 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([76, 476]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  1.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ..., -1.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+97.40	98.09
+--- total time from beginning: 63 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([76, 476]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  1.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ..., -1.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+97.30	97.82
+--- total time from beginning: 57 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([76, 476]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  1.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ..., -1.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+97.10	97.74
+--- total time from beginning: 52 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([76, 476]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  1.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ..., -1.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+97.70	98.37
+--- total time from beginning: 51 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([76, 476]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  1.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ..., -1.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+97.00	97.88
+--- total time from beginning: 60 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([76, 476]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  1.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ..., -1.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+97.00	98.21
+--- total time from beginning: 51 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([76, 476]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  1.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ..., -1.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+97.50	98.11
+--- total time from beginning: 53 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([76, 476]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  1.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ..., -1.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+97.20	97.75
+--- total time from beginning: 52 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([76, 476]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  1.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ..., -1.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+97.10	97.99
+--- total time from beginning: 51 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+95.80	96.20
+--- total time from beginning: 79 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+95.70	95.05
+--- total time from beginning: 78 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+94.90	94.23
+--- total time from beginning: 84 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+95.60	96.15
+--- total time from beginning: 84 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+95.80	95.72
+--- total time from beginning: 79 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+96.30	95.79
+--- total time from beginning: 77 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+95.60	95.46
+--- total time from beginning: 78 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+94.80	94.81
+--- total time from beginning: 80 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+94.90	95.11
+--- total time from beginning: 80 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+95.90	96.56
+--- total time from beginning: 78 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+95.90	96.15
+--- total time from beginning: 83 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+96.10	96.46
+--- total time from beginning: 79 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+96.40	96.20
+--- total time from beginning: 83 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+94.60	94.88
+--- total time from beginning: 79 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+95.30	95.96
+--- total time from beginning: 79 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+95.60	95.59
+--- total time from beginning: 78 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+96.20	95.57
+--- total time from beginning: 79 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+95.40	95.10
+--- total time from beginning: 81 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+96.10	95.65
+--- total time from beginning: 80 seconds ---
+python main.py --domain add2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([260, 516]):
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+95.80	95.88
+--- total time from beginning: 84 seconds ---
+
+
+========== apply2x2 ==========
+
+
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10597, 10606]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 112 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10597, 10606]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 112 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10597, 10606]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 111 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10597, 10606]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 110 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10597, 10606]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 114 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10597, 10606]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 112 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10597, 10606]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 112 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10597, 10606]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 109 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10597, 10606]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 114 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10597, 10606]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  ...,  0.,  0.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 1.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 112 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 209 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 208 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 205 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 208 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 208 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 208 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 207 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 210 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 208 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 208 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 213 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 207 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 211 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 207 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 228 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 229 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 209 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 209 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 211 seconds ---
+python main.py --domain apply2x2cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 5 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([10605, 10612]):
+tensor([[ 1.,  1.,  1.,  ...,  0.,  0.,  0.],
+        [-1., -1.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0., -1.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+100.00	100.00
+--- total time from beginning: 211 seconds ---
+
+
+========== member3 ==========
+
+
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([40, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.20	95.24
+--- total time from beginning: 41 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([40, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.50	95.08
+--- total time from beginning: 42 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([40, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.90	96.04
+--- total time from beginning: 51 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([40, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.80	96.11
+--- total time from beginning: 41 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([40, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+93.70	94.38
+--- total time from beginning: 43 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([40, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.60	96.32
+--- total time from beginning: 43 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([40, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+94.90	94.79
+--- total time from beginning: 42 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([40, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.90	95.99
+--- total time from beginning: 42 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([40, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+94.00	95.01
+--- total time from beginning: 42 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([40, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.80	95.76
+--- total time from beginning: 41 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+78.50	78.89
+--- total time from beginning: 46 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+70.40	70.71
+--- total time from beginning: 45 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+80.70	80.34
+--- total time from beginning: 45 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+67.30	67.13
+--- total time from beginning: 45 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+59.40	57.52
+--- total time from beginning: 45 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+88.50	90.35
+--- total time from beginning: 45 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+66.30	65.49
+--- total time from beginning: 45 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+71.30	71.33
+--- total time from beginning: 45 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+76.90	75.84
+--- total time from beginning: 45 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+73.30	74.84
+--- total time from beginning: 45 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+77.50	77.59
+--- total time from beginning: 47 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+70.10	70.84
+--- total time from beginning: 45 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+81.60	83.26
+--- total time from beginning: 46 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+91.10	92.20
+--- total time from beginning: 47 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+89.00	89.42
+--- total time from beginning: 46 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+70.40	69.47
+--- total time from beginning: 46 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+81.50	79.77
+--- total time from beginning: 46 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+89.40	91.49
+--- total time from beginning: 46 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+88.00	88.10
+--- total time from beginning: 46 seconds ---
+python main.py --domain member3cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 0.1 0.1 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([178, 50]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+89.50	89.39
+--- total time from beginning: 46 seconds ---
+
+
+========== member5 ==========
+
+
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([60, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+94.90	94.49
+--- total time from beginning: 47 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([60, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+94.90	94.97
+--- total time from beginning: 46 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([60, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.20	94.89
+--- total time from beginning: 46 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([60, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+94.00	94.18
+--- total time from beginning: 52 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([60, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.50	95.36
+--- total time from beginning: 47 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([60, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.60	95.45
+--- total time from beginning: 46 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([60, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.10	95.35
+--- total time from beginning: 56 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([60, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+96.20	95.33
+--- total time from beginning: 47 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([60, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+95.70	95.52
+--- total time from beginning: 47 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 3 --hyper 1 0.1
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([60, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.],
+        [ 0.,  0.,  0.,  ...,  0., -1.,  0.]])
+94.80	94.52
+--- total time from beginning: 55 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+54.30	55.65
+--- total time from beginning: 176 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+11.60	11.35
+--- total time from beginning: 180 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+66.20	68.15
+--- total time from beginning: 178 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+90.30	90.07
+--- total time from beginning: 177 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+39.30	40.90
+--- total time from beginning: 177 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+54.60	54.16
+--- total time from beginning: 179 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+61.50	61.40
+--- total time from beginning: 177 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+67.70	68.51
+--- total time from beginning: 175 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+9.90	10.32
+--- total time from beginning: 176 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bi
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+51.40	50.98
+--- total time from beginning: 178 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+87.20	88.62
+--- total time from beginning: 177 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+92.40	92.77
+--- total time from beginning: 175 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+85.60	84.00
+--- total time from beginning: 180 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+93.60	93.43
+--- total time from beginning: 176 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+74.50	74.21
+--- total time from beginning: 183 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+92.40	92.70
+--- total time from beginning: 175 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+89.80	88.49
+--- total time from beginning: 179 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+94.80	94.82
+--- total time from beginning: 208 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+78.50	77.91
+--- total time from beginning: 179 seconds ---
+python main.py --domain member5cnf --numData 3000 --batchSize 1 --epochs 10 --hyper 1 0.4 --b Bs
+device is cpu
+
+The CNF is represented by a matrix C of shape torch.Size([290, 70]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.]])
+92.60	93.03
+--- total time from beginning: 178 seconds ---

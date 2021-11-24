@@ -1,0 +1,1349 @@
+####################
+# Train SATNet on Park 70k dataset 
+# Test SATNet on Park 70k dataset 
+# Test SATNet on SATNet dataset 
+####################
+
+.../SATNet$ python exps/sudoku.py --save PATH/sudoku
+Using GeForce GTX 1080
+===> Loading data
+===> Forming inputs
+===> Building model
+Epoch 0 Test  Loss 0.4497 Err: 1.0000: 100%|█████████████████████████████| 350/350 [01:23<00:00,  4.19it/s]
+TESTING SET RESULTS: Average loss: 0.4466 Err: 1.0000
+Epoch 1 Train Loss 0.0791 Err: 0.5000: 100%|███████████████████████████| 1400/1400 [10:44<00:00,  2.17it/s]
+test on Park 70k dataset
+Epoch 1 Test  Loss 0.0835 Err: 0.5750: 100%|█████████████████████████████| 350/350 [00:57<00:00,  6.10it/s]
+TESTING SET RESULTS: Average loss: 0.0849 Err: 0.6469
+test on SATNet dataset
+Epoch 1 Test  Loss 0.0929 Err: 0.4000: 100%|███████████████████████████████| 25/25 [00:04<00:00,  5.76it/s]
+TESTING SET RESULTS: Average loss: 0.0957 Err: 0.5330
+Epoch 2 Train Loss 0.0719 Err: 0.4750: 100%|███████████████████████████| 1400/1400 [08:14<00:00,  2.83it/s]
+test on Park 70k dataset
+Epoch 2 Test  Loss 0.0750 Err: 0.5500: 100%|█████████████████████████████| 350/350 [00:53<00:00,  6.53it/s]
+TESTING SET RESULTS: Average loss: 0.0767 Err: 0.5651
+test on SATNet dataset
+Epoch 2 Test  Loss 0.0836 Err: 0.2750: 100%|███████████████████████████████| 25/25 [00:04<00:00,  6.13it/s]
+TESTING SET RESULTS: Average loss: 0.0851 Err: 0.2860
+Epoch 3 Train Loss 0.0586 Err: 0.4500: 100%|███████████████████████████| 1400/1400 [08:05<00:00,  2.89it/s]
+test on Park 70k dataset
+Epoch 3 Test  Loss 0.0629 Err: 0.4750: 100%|█████████████████████████████| 350/350 [00:55<00:00,  6.32it/s]
+TESTING SET RESULTS: Average loss: 0.0634 Err: 0.4968
+test on SATNet dataset
+Epoch 3 Test  Loss 0.0655 Err: 0.0500: 100%|███████████████████████████████| 25/25 [00:04<00:00,  5.87it/s]
+TESTING SET RESULTS: Average loss: 0.0675 Err: 0.1200
+Epoch 4 Train Loss 0.0563 Err: 0.4500: 100%|███████████████████████████| 1400/1400 [08:30<00:00,  2.74it/s]
+test on Park 70k dataset
+Epoch 4 Test  Loss 0.0573 Err: 0.3750: 100%|█████████████████████████████| 350/350 [00:59<00:00,  5.93it/s]
+TESTING SET RESULTS: Average loss: 0.0587 Err: 0.4531
+test on SATNet dataset
+Epoch 4 Test  Loss 0.0593 Err: 0.0250: 100%|███████████████████████████████| 25/25 [00:04<00:00,  5.48it/s]
+TESTING SET RESULTS: Average loss: 0.0615 Err: 0.0690
+Epoch 5 Train Loss 0.0542 Err: 0.4250: 100%|███████████████████████████| 1400/1400 [08:50<00:00,  2.64it/s]
+test on Park 70k dataset
+Epoch 5 Test  Loss 0.0564 Err: 0.4250: 100%|█████████████████████████████| 350/350 [00:59<00:00,  5.84it/s]
+TESTING SET RESULTS: Average loss: 0.0572 Err: 0.4473
+test on SATNet dataset
+Epoch 5 Test  Loss 0.0572 Err: 0.0250: 100%|███████████████████████████████| 25/25 [00:04<00:00,  5.43it/s]
+TESTING SET RESULTS: Average loss: 0.0595 Err: 0.0570
+Epoch 6 Train Loss 0.0523 Err: 0.4000: 100%|███████████████████████████| 1400/1400 [09:04<00:00,  2.57it/s]
+test on Park 70k dataset
+Epoch 6 Test  Loss 0.0542 Err: 0.3000: 100%|█████████████████████████████| 350/350 [01:01<00:00,  5.68it/s]
+TESTING SET RESULTS: Average loss: 0.0562 Err: 0.4434
+test on SATNet dataset
+Epoch 6 Test  Loss 0.0564 Err: 0.0250: 100%|███████████████████████████████| 25/25 [00:04<00:00,  5.28it/s]
+TESTING SET RESULTS: Average loss: 0.0582 Err: 0.0450
+Epoch 7 Train Loss 0.0504 Err: 0.3500: 100%|███████████████████████████| 1400/1400 [09:18<00:00,  2.50it/s]
+test on Park 70k dataset
+Epoch 7 Test  Loss 0.0532 Err: 0.3500: 100%|█████████████████████████████| 350/350 [01:04<00:00,  5.40it/s]
+TESTING SET RESULTS: Average loss: 0.0546 Err: 0.4179
+test on SATNet dataset
+Epoch 7 Test  Loss 0.0542 Err: 0.0250: 100%|███████████████████████████████| 25/25 [00:05<00:00,  4.94it/s]
+TESTING SET RESULTS: Average loss: 0.0560 Err: 0.0360
+Epoch 8 Train Loss 0.0505 Err: 0.3750: 100%|███████████████████████████| 1400/1400 [09:27<00:00,  2.47it/s]
+test on Park 70k dataset
+Epoch 8 Test  Loss 0.0530 Err: 0.3250: 100%|█████████████████████████████| 350/350 [01:03<00:00,  5.50it/s]
+TESTING SET RESULTS: Average loss: 0.0544 Err: 0.4188
+test on SATNet dataset
+Epoch 8 Test  Loss 0.0547 Err: 0.0500: 100%|███████████████████████████████| 25/25 [00:04<00:00,  5.03it/s]
+TESTING SET RESULTS: Average loss: 0.0559 Err: 0.0430
+Epoch 9 Train Loss 0.0501 Err: 0.3500: 100%|███████████████████████████| 1400/1400 [09:30<00:00,  2.45it/s]
+test on Park 70k dataset
+Epoch 9 Test  Loss 0.0520 Err: 0.2500: 100%|█████████████████████████████| 350/350 [01:04<00:00,  5.45it/s]
+TESTING SET RESULTS: Average loss: 0.0538 Err: 0.4121
+test on SATNet dataset
+Epoch 9 Test  Loss 0.0535 Err: 0.0000: 100%|███████████████████████████████| 25/25 [00:04<00:00,  5.10it/s]
+TESTING SET RESULTS: Average loss: 0.0550 Err: 0.0330
+Epoch 10 Train Loss 0.0487 Err: 0.3750: 100%|██████████████████████████| 1400/1400 [09:36<00:00,  2.43it/s]
+test on Park 70k dataset
+Epoch 10 Test  Loss 0.0515 Err: 0.3500: 100%|████████████████████████████| 350/350 [01:05<00:00,  5.37it/s]
+TESTING SET RESULTS: Average loss: 0.0534 Err: 0.4042
+test on SATNet dataset
+Epoch 10 Test  Loss 0.0530 Err: 0.0500: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.96it/s]
+TESTING SET RESULTS: Average loss: 0.0544 Err: 0.0350
+Epoch 11 Train Loss 0.0480 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [09:41<00:00,  2.41it/s]
+test on Park 70k dataset
+Epoch 11 Test  Loss 0.0513 Err: 0.3000: 100%|████████████████████████████| 350/350 [01:05<00:00,  5.35it/s]
+TESTING SET RESULTS: Average loss: 0.0531 Err: 0.4005
+test on SATNet dataset
+Epoch 11 Test  Loss 0.0527 Err: 0.0250: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.94it/s]
+TESTING SET RESULTS: Average loss: 0.0539 Err: 0.0320
+Epoch 12 Train Loss 0.0481 Err: 0.3000: 100%|██████████████████████████| 1400/1400 [09:45<00:00,  2.39it/s]
+test on Park 70k dataset
+Epoch 12 Test  Loss 0.0513 Err: 0.3250: 100%|████████████████████████████| 350/350 [01:05<00:00,  5.35it/s]
+TESTING SET RESULTS: Average loss: 0.0527 Err: 0.3965
+test on SATNet dataset
+Epoch 12 Test  Loss 0.0528 Err: 0.0500: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.93it/s]
+TESTING SET RESULTS: Average loss: 0.0535 Err: 0.0270
+Epoch 13 Train Loss 0.0476 Err: 0.3000: 100%|██████████████████████████| 1400/1400 [09:49<00:00,  2.38it/s]
+test on Park 70k dataset
+Epoch 13 Test  Loss 0.0506 Err: 0.3750: 100%|████████████████████████████| 350/350 [01:06<00:00,  5.26it/s]
+TESTING SET RESULTS: Average loss: 0.0522 Err: 0.3831
+test on SATNet dataset
+Epoch 13 Test  Loss 0.0520 Err: 0.0250: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.83it/s]
+TESTING SET RESULTS: Average loss: 0.0528 Err: 0.0220
+Epoch 14 Train Loss 0.0475 Err: 0.4000: 100%|██████████████████████████| 1400/1400 [09:53<00:00,  2.36it/s]
+test on Park 70k dataset
+Epoch 14 Test  Loss 0.0514 Err: 0.3750: 100%|████████████████████████████| 350/350 [01:06<00:00,  5.25it/s]
+TESTING SET RESULTS: Average loss: 0.0523 Err: 0.3864
+test on SATNet dataset
+Epoch 14 Test  Loss 0.0522 Err: 0.0250: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.85it/s]
+TESTING SET RESULTS: Average loss: 0.0528 Err: 0.0280
+Epoch 15 Train Loss 0.0474 Err: 0.3500: 100%|██████████████████████████| 1400/1400 [09:56<00:00,  2.35it/s]
+test on Park 70k dataset
+Epoch 15 Test  Loss 0.0499 Err: 0.3250: 100%|████████████████████████████| 350/350 [01:06<00:00,  5.24it/s]
+TESTING SET RESULTS: Average loss: 0.0518 Err: 0.3833
+test on SATNet dataset
+Epoch 15 Test  Loss 0.0512 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.84it/s]
+TESTING SET RESULTS: Average loss: 0.0523 Err: 0.0330
+Epoch 16 Train Loss 0.0476 Err: 0.3250: 100%|██████████████████████████| 1400/1400 [09:58<00:00,  2.34it/s]
+test on Park 70k dataset
+Epoch 16 Test  Loss 0.0497 Err: 0.3000: 100%|████████████████████████████| 350/350 [01:06<00:00,  5.23it/s]
+TESTING SET RESULTS: Average loss: 0.0516 Err: 0.3791
+test on SATNet dataset
+Epoch 16 Test  Loss 0.0514 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.80it/s]
+TESTING SET RESULTS: Average loss: 0.0521 Err: 0.0300
+Epoch 17 Train Loss 0.0470 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [10:02<00:00,  2.32it/s]
+test on Park 70k dataset
+Epoch 17 Test  Loss 0.0495 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.13it/s]
+TESTING SET RESULTS: Average loss: 0.0512 Err: 0.3706
+test on SATNet dataset
+Epoch 17 Test  Loss 0.0507 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.84it/s]
+TESTING SET RESULTS: Average loss: 0.0516 Err: 0.0220
+Epoch 18 Train Loss 0.0465 Err: 0.3000: 100%|██████████████████████████| 1400/1400 [10:03<00:00,  2.32it/s]
+test on Park 70k dataset
+Epoch 18 Test  Loss 0.0493 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:07<00:00,  5.19it/s]
+TESTING SET RESULTS: Average loss: 0.0511 Err: 0.3743
+test on SATNet dataset
+Epoch 18 Test  Loss 0.0507 Err: 0.0500: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.72it/s]
+TESTING SET RESULTS: Average loss: 0.0515 Err: 0.0260
+Epoch 19 Train Loss 0.0470 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [10:05<00:00,  2.31it/s]
+test on Park 70k dataset
+Epoch 19 Test  Loss 0.0493 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:07<00:00,  5.16it/s]
+TESTING SET RESULTS: Average loss: 0.0510 Err: 0.3711
+test on SATNet dataset
+Epoch 19 Test  Loss 0.0505 Err: 0.0250: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.79it/s]
+TESTING SET RESULTS: Average loss: 0.0513 Err: 0.0210
+Epoch 20 Train Loss 0.0468 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [10:07<00:00,  2.31it/s]
+test on Park 70k dataset
+Epoch 20 Test  Loss 0.0492 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.15it/s]
+TESTING SET RESULTS: Average loss: 0.0507 Err: 0.3685
+test on SATNet dataset
+Epoch 20 Test  Loss 0.0500 Err: 0.0250: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.68it/s]
+TESTING SET RESULTS: Average loss: 0.0510 Err: 0.0180
+Epoch 21 Train Loss 0.0467 Err: 0.3000: 100%|██████████████████████████| 1400/1400 [10:07<00:00,  2.31it/s]
+test on Park 70k dataset
+Epoch 21 Test  Loss 0.0485 Err: 0.1500: 100%|████████████████████████████| 350/350 [01:07<00:00,  5.15it/s]
+TESTING SET RESULTS: Average loss: 0.0506 Err: 0.3611
+test on SATNet dataset
+Epoch 21 Test  Loss 0.0499 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.76it/s]
+TESTING SET RESULTS: Average loss: 0.0508 Err: 0.0230
+Epoch 22 Train Loss 0.0463 Err: 0.3000: 100%|██████████████████████████| 1400/1400 [10:07<00:00,  2.30it/s]
+test on Park 70k dataset
+Epoch 22 Test  Loss 0.0491 Err: 0.3500: 100%|████████████████████████████| 350/350 [01:07<00:00,  5.15it/s]
+TESTING SET RESULTS: Average loss: 0.0504 Err: 0.3597
+test on SATNet dataset
+Epoch 22 Test  Loss 0.0498 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.74it/s]
+TESTING SET RESULTS: Average loss: 0.0506 Err: 0.0170
+Epoch 23 Train Loss 0.0458 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:09<00:00,  2.30it/s]
+test on Park 70k dataset
+Epoch 23 Test  Loss 0.0482 Err: 0.2000: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.08it/s]
+TESTING SET RESULTS: Average loss: 0.0501 Err: 0.3530
+test on SATNet dataset
+Epoch 23 Test  Loss 0.0497 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.60it/s]
+TESTING SET RESULTS: Average loss: 0.0503 Err: 0.0180
+Epoch 24 Train Loss 0.0461 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [10:09<00:00,  2.30it/s]
+test on Park 70k dataset
+Epoch 24 Test  Loss 0.0480 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.11it/s]
+TESTING SET RESULTS: Average loss: 0.0500 Err: 0.3521
+test on SATNet dataset
+Epoch 24 Test  Loss 0.0495 Err: 0.0250: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.68it/s]
+TESTING SET RESULTS: Average loss: 0.0501 Err: 0.0190
+Epoch 25 Train Loss 0.0457 Err: 0.3000: 100%|██████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 25 Test  Loss 0.0475 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.05it/s]
+TESTING SET RESULTS: Average loss: 0.0498 Err: 0.3500
+test on SATNet dataset
+Epoch 25 Test  Loss 0.0493 Err: 0.0250: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.64it/s]
+TESTING SET RESULTS: Average loss: 0.0500 Err: 0.0140
+Epoch 26 Train Loss 0.0454 Err: 0.3250: 100%|██████████████████████████| 1400/1400 [10:13<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 26 Test  Loss 0.0481 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.11it/s]
+TESTING SET RESULTS: Average loss: 0.0497 Err: 0.3454
+test on SATNet dataset
+Epoch 26 Test  Loss 0.0490 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.66it/s]
+TESTING SET RESULTS: Average loss: 0.0498 Err: 0.0150
+Epoch 27 Train Loss 0.0447 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 27 Test  Loss 0.0474 Err: 0.1750: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.10it/s]
+TESTING SET RESULTS: Average loss: 0.0496 Err: 0.3440
+test on SATNet dataset
+Epoch 27 Test  Loss 0.0488 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.74it/s]
+TESTING SET RESULTS: Average loss: 0.0498 Err: 0.0150
+Epoch 28 Train Loss 0.0454 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:12<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 28 Test  Loss 0.0472 Err: 0.2000: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.11it/s]
+TESTING SET RESULTS: Average loss: 0.0495 Err: 0.3452
+test on SATNet dataset
+Epoch 28 Test  Loss 0.0489 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.73it/s]
+TESTING SET RESULTS: Average loss: 0.0496 Err: 0.0140
+Epoch 29 Train Loss 0.0450 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:14<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 29 Test  Loss 0.0472 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.05it/s]
+TESTING SET RESULTS: Average loss: 0.0493 Err: 0.3446
+test on SATNet dataset
+Epoch 29 Test  Loss 0.0482 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.67it/s]
+TESTING SET RESULTS: Average loss: 0.0495 Err: 0.0120
+Epoch 30 Train Loss 0.0454 Err: 0.3000: 100%|██████████████████████████| 1400/1400 [10:15<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 30 Test  Loss 0.0468 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.07it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.3421
+test on SATNet dataset
+Epoch 30 Test  Loss 0.0486 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.65it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.0120
+Epoch 31 Train Loss 0.0456 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:14<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 31 Test  Loss 0.0478 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.10it/s]
+TESTING SET RESULTS: Average loss: 0.0493 Err: 0.3417
+test on SATNet dataset
+Epoch 31 Test  Loss 0.0485 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.70it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.0130
+Epoch 32 Train Loss 0.0445 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:15<00:00,  2.27it/s]
+test on Park 70k dataset
+Epoch 32 Test  Loss 0.0476 Err: 0.3000: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.08it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3409
+test on SATNet dataset
+Epoch 32 Test  Loss 0.0482 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.65it/s]
+TESTING SET RESULTS: Average loss: 0.0493 Err: 0.0100
+Epoch 33 Train Loss 0.0449 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [10:16<00:00,  2.27it/s]
+test on Park 70k dataset
+Epoch 33 Test  Loss 0.0474 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.06it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3399
+test on SATNet dataset
+Epoch 33 Test  Loss 0.0482 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.69it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.0090
+Epoch 34 Train Loss 0.0442 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [10:16<00:00,  2.27it/s]
+test on Park 70k dataset
+Epoch 34 Test  Loss 0.0472 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.07it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.3349
+test on SATNet dataset
+Epoch 34 Test  Loss 0.0485 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.71it/s]
+TESTING SET RESULTS: Average loss: 0.0491 Err: 0.0120
+Epoch 35 Train Loss 0.0449 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [10:18<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 35 Test  Loss 0.0471 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.06it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.3369
+test on SATNet dataset
+Epoch 35 Test  Loss 0.0483 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.67it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.0120
+Epoch 36 Train Loss 0.0450 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:18<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 36 Test  Loss 0.0466 Err: 0.2000: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.04it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.3345
+test on SATNet dataset
+Epoch 36 Test  Loss 0.0484 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.66it/s]
+TESTING SET RESULTS: Average loss: 0.0489 Err: 0.0080
+Epoch 37 Train Loss 0.0452 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:18<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 37 Test  Loss 0.0474 Err: 0.2000: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.05it/s]
+TESTING SET RESULTS: Average loss: 0.0489 Err: 0.3351
+test on SATNet dataset
+Epoch 37 Test  Loss 0.0478 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.70it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.0110
+Epoch 38 Train Loss 0.0436 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:19<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 38 Test  Loss 0.0463 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.01it/s]
+TESTING SET RESULTS: Average loss: 0.0488 Err: 0.3292
+test on SATNet dataset
+Epoch 38 Test  Loss 0.0480 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.67it/s]
+TESTING SET RESULTS: Average loss: 0.0487 Err: 0.0090
+Epoch 39 Train Loss 0.0439 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:19<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 39 Test  Loss 0.0466 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.02it/s]
+TESTING SET RESULTS: Average loss: 0.0487 Err: 0.3295
+test on SATNet dataset
+Epoch 39 Test  Loss 0.0479 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.70it/s]
+TESTING SET RESULTS: Average loss: 0.0487 Err: 0.0130
+Epoch 40 Train Loss 0.0445 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:20<00:00,  2.25it/s]
+test on Park 70k dataset
+Epoch 40 Test  Loss 0.0473 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.04it/s]
+TESTING SET RESULTS: Average loss: 0.0488 Err: 0.3286
+test on SATNet dataset
+Epoch 40 Test  Loss 0.0481 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.64it/s]
+TESTING SET RESULTS: Average loss: 0.0487 Err: 0.0100
+Epoch 41 Train Loss 0.0446 Err: 0.3000: 100%|██████████████████████████| 1400/1400 [10:21<00:00,  2.25it/s]
+test on Park 70k dataset
+Epoch 41 Test  Loss 0.0469 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.01it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.3286
+test on SATNet dataset
+Epoch 41 Test  Loss 0.0477 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.60it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.0110
+Epoch 42 Train Loss 0.0447 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [10:22<00:00,  2.25it/s]
+test on Park 70k dataset
+Epoch 42 Test  Loss 0.0468 Err: 0.1750: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.04it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.3281
+test on SATNet dataset
+Epoch 42 Test  Loss 0.0477 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.67it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.0120
+Epoch 43 Train Loss 0.0438 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:22<00:00,  2.25it/s]
+test on Park 70k dataset
+Epoch 43 Test  Loss 0.0465 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.02it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3276
+test on SATNet dataset
+Epoch 43 Test  Loss 0.0476 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.60it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.0090
+Epoch 44 Train Loss 0.0449 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:14<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 44 Test  Loss 0.0477 Err: 0.3000: 100%|████████████████████████████| 350/350 [01:07<00:00,  5.17it/s]
+TESTING SET RESULTS: Average loss: 0.0493 Err: 0.3404
+test on SATNet dataset
+Epoch 44 Test  Loss 0.0485 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.74it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.0110
+Epoch 45 Train Loss 0.0451 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [10:08<00:00,  2.30it/s]
+test on Park 70k dataset
+Epoch 45 Test  Loss 0.0476 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.14it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3419
+test on SATNet dataset
+Epoch 45 Test  Loss 0.0487 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.74it/s]
+TESTING SET RESULTS: Average loss: 0.0493 Err: 0.0100
+Epoch 46 Train Loss 0.0447 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:14<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 46 Test  Loss 0.0476 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.00it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.3331
+test on SATNet dataset
+Epoch 46 Test  Loss 0.0480 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.67it/s]
+TESTING SET RESULTS: Average loss: 0.0488 Err: 0.0100
+Epoch 47 Train Loss 0.0446 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [10:17<00:00,  2.27it/s]
+test on Park 70k dataset
+Epoch 47 Test  Loss 0.0478 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.10it/s]
+TESTING SET RESULTS: Average loss: 0.0489 Err: 0.3371
+test on SATNet dataset
+Epoch 47 Test  Loss 0.0483 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.74it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.0110
+Epoch 48 Train Loss 0.0446 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:18<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 48 Test  Loss 0.0468 Err: 0.1750: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.01it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3261
+test on SATNet dataset
+Epoch 48 Test  Loss 0.0475 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.65it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.0090
+Epoch 49 Train Loss 0.0451 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:16<00:00,  2.27it/s]
+test on Park 70k dataset
+Epoch 49 Test  Loss 0.0471 Err: 0.1500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.13it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3381
+test on SATNet dataset
+Epoch 49 Test  Loss 0.0483 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.75it/s]
+TESTING SET RESULTS: Average loss: 0.0491 Err: 0.0080
+Epoch 50 Train Loss 0.0449 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:18<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 50 Test  Loss 0.0472 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.08it/s]
+TESTING SET RESULTS: Average loss: 0.0488 Err: 0.3326
+test on SATNet dataset
+Epoch 50 Test  Loss 0.0479 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.69it/s]
+TESTING SET RESULTS: Average loss: 0.0488 Err: 0.0080
+Epoch 51 Train Loss 0.0435 Err: 0.1500: 100%|██████████████████████████| 1400/1400 [10:17<00:00,  2.27it/s]
+test on Park 70k dataset
+Epoch 51 Test  Loss 0.0464 Err: 0.1750: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.04it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3271
+test on SATNet dataset
+Epoch 51 Test  Loss 0.0474 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.65it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.0100
+Epoch 52 Train Loss 0.0434 Err: 0.1500: 100%|██████████████████████████| 1400/1400 [10:18<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 52 Test  Loss 0.0471 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.07it/s]
+TESTING SET RESULTS: Average loss: 0.0487 Err: 0.3349
+test on SATNet dataset
+Epoch 52 Test  Loss 0.0479 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.73it/s]
+TESTING SET RESULTS: Average loss: 0.0487 Err: 0.0090
+Epoch 53 Train Loss 0.0445 Err: 0.3250: 100%|██████████████████████████| 1400/1400 [10:19<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 53 Test  Loss 0.0472 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.07it/s]
+TESTING SET RESULTS: Average loss: 0.0487 Err: 0.3318
+test on SATNet dataset
+Epoch 53 Test  Loss 0.0480 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.67it/s]
+TESTING SET RESULTS: Average loss: 0.0488 Err: 0.0170
+Epoch 54 Train Loss 0.0442 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:18<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 54 Test  Loss 0.0473 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.06it/s]
+TESTING SET RESULTS: Average loss: 0.0487 Err: 0.3301
+test on SATNet dataset
+Epoch 54 Test  Loss 0.0478 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.67it/s]
+TESTING SET RESULTS: Average loss: 0.0487 Err: 0.0090
+Epoch 55 Train Loss 0.0449 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [10:20<00:00,  2.25it/s]
+test on Park 70k dataset
+Epoch 55 Test  Loss 0.0472 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.04it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.3304
+test on SATNet dataset
+Epoch 55 Test  Loss 0.0479 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.70it/s]
+TESTING SET RESULTS: Average loss: 0.0487 Err: 0.0120
+Epoch 56 Train Loss 0.0440 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [10:18<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 56 Test  Loss 0.0471 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.05it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.3286
+test on SATNet dataset
+Epoch 56 Test  Loss 0.0482 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.64it/s]
+TESTING SET RESULTS: Average loss: 0.0487 Err: 0.0080
+Epoch 57 Train Loss 0.0446 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:17<00:00,  2.27it/s]
+test on Park 70k dataset
+Epoch 57 Test  Loss 0.0464 Err: 0.1750: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.05it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3294
+test on SATNet dataset
+Epoch 57 Test  Loss 0.0478 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.68it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.0080
+Epoch 58 Train Loss 0.0442 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:19<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 58 Test  Loss 0.0471 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.08it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.3297
+test on SATNet dataset
+Epoch 58 Test  Loss 0.0480 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.67it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.0090
+Epoch 59 Train Loss 0.0438 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:16<00:00,  2.27it/s]
+test on Park 70k dataset
+Epoch 59 Test  Loss 0.0463 Err: 0.1750: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.05it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3297
+test on SATNet dataset
+Epoch 59 Test  Loss 0.0477 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.72it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.0090
+Epoch 60 Train Loss 0.0441 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:15<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 60 Test  Loss 0.0468 Err: 0.2000: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.09it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.3310
+test on SATNet dataset
+Epoch 60 Test  Loss 0.0478 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.70it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.0060
+Epoch 61 Train Loss 0.0446 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:15<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 61 Test  Loss 0.0467 Err: 0.1750: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.09it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3280
+test on SATNet dataset
+Epoch 61 Test  Loss 0.0477 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.74it/s]
+TESTING SET RESULTS: Average loss: 0.0486 Err: 0.0110
+Epoch 62 Train Loss 0.0442 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:16<00:00,  2.27it/s]
+test on Park 70k dataset
+Epoch 62 Test  Loss 0.0460 Err: 0.2000: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.05it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3206
+test on SATNet dataset
+Epoch 62 Test  Loss 0.0473 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.68it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.0110
+Epoch 63 Train Loss 0.0437 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:18<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 63 Test  Loss 0.0468 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.08it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3269
+test on SATNet dataset
+Epoch 63 Test  Loss 0.0477 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.67it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.0090
+Epoch 64 Train Loss 0.0439 Err: 0.1500: 100%|██████████████████████████| 1400/1400 [10:15<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 64 Test  Loss 0.0470 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.07it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3261
+test on SATNet dataset
+Epoch 64 Test  Loss 0.0480 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.70it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.0060
+Epoch 65 Train Loss 0.0438 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [10:14<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 65 Test  Loss 0.0460 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.06it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3214
+test on SATNet dataset
+Epoch 65 Test  Loss 0.0472 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.70it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.0120
+Epoch 66 Train Loss 0.0444 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:15<00:00,  2.27it/s]
+test on Park 70k dataset
+Epoch 66 Test  Loss 0.0472 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.08it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3274
+test on SATNet dataset
+Epoch 66 Test  Loss 0.0474 Err: 0.0250: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.72it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.0120
+Epoch 67 Train Loss 0.0439 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:18<00:00,  2.26it/s]
+test on Park 70k dataset
+Epoch 67 Test  Loss 0.0461 Err: 0.2000: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.03it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.3257
+test on SATNet dataset
+Epoch 67 Test  Loss 0.0474 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.63it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.0070
+Epoch 68 Train Loss 0.0442 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:16<00:00,  2.27it/s]
+test on Park 70k dataset
+Epoch 68 Test  Loss 0.0457 Err: 0.1500: 100%|████████████████████████████| 350/350 [01:09<00:00,  5.05it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3205
+test on SATNet dataset
+Epoch 68 Test  Loss 0.0475 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.70it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.0060
+Epoch 69 Train Loss 0.0437 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:13<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 69 Test  Loss 0.0456 Err: 0.1500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.11it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3208
+test on SATNet dataset
+Epoch 69 Test  Loss 0.0471 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.73it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.0090
+Epoch 70 Train Loss 0.0442 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:14<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 70 Test  Loss 0.0459 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.09it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3262
+test on SATNet dataset
+Epoch 70 Test  Loss 0.0477 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.71it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.0110
+Epoch 71 Train Loss 0.0438 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:13<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 71 Test  Loss 0.0466 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.10it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3249
+test on SATNet dataset
+Epoch 71 Test  Loss 0.0476 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.71it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.0120
+Epoch 72 Train Loss 0.0443 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:14<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 72 Test  Loss 0.0464 Err: 0.2000: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.12it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3254
+test on SATNet dataset
+Epoch 72 Test  Loss 0.0474 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.71it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.0110
+Epoch 73 Train Loss 0.0438 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:13<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 73 Test  Loss 0.0454 Err: 0.2000: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.11it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.3214
+test on SATNet dataset
+Epoch 73 Test  Loss 0.0474 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.72it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.0100
+Epoch 74 Train Loss 0.0444 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:14<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 74 Test  Loss 0.0463 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.08it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3265
+test on SATNet dataset
+Epoch 74 Test  Loss 0.0476 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.67it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.0090
+Epoch 75 Train Loss 0.0435 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:14<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 75 Test  Loss 0.0457 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.12it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3222
+test on SATNet dataset
+Epoch 75 Test  Loss 0.0474 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.71it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.0040
+Epoch 76 Train Loss 0.0438 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:13<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 76 Test  Loss 0.0468 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.10it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3236
+test on SATNet dataset
+Epoch 76 Test  Loss 0.0474 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.74it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.0100
+Epoch 77 Train Loss 0.0444 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:14<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 77 Test  Loss 0.0464 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.08it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3233
+test on SATNet dataset
+Epoch 77 Test  Loss 0.0476 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.70it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.0060
+Epoch 78 Train Loss 0.0437 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:13<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 78 Test  Loss 0.0459 Err: 0.2000: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.11it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3250
+test on SATNet dataset
+Epoch 78 Test  Loss 0.0475 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.67it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.0110
+Epoch 79 Train Loss 0.0444 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:12<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 79 Test  Loss 0.0460 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.12it/s]
+TESTING SET RESULTS: Average loss: 0.0485 Err: 0.3263
+test on SATNet dataset
+Epoch 79 Test  Loss 0.0472 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.69it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.0160
+Epoch 80 Train Loss 0.0439 Err: 0.1500: 100%|██████████████████████████| 1400/1400 [10:13<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 80 Test  Loss 0.0460 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.09it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.3200
+test on SATNet dataset
+Epoch 80 Test  Loss 0.0475 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.74it/s]
+TESTING SET RESULTS: Average loss: 0.0481 Err: 0.0070
+Epoch 81 Train Loss 0.0439 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:13<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 81 Test  Loss 0.0458 Err: 0.1500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.10it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3246
+test on SATNet dataset
+Epoch 81 Test  Loss 0.0470 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.68it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.0090
+Epoch 82 Train Loss 0.0438 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:13<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 82 Test  Loss 0.0468 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.10it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3209
+test on SATNet dataset
+Epoch 82 Test  Loss 0.0471 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.69it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.0050
+Epoch 83 Train Loss 0.0441 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:12<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 83 Test  Loss 0.0448 Err: 0.1000: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.10it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.3176
+test on SATNet dataset
+Epoch 83 Test  Loss 0.0472 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.70it/s]
+TESTING SET RESULTS: Average loss: 0.0481 Err: 0.0080
+Epoch 84 Train Loss 0.0439 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [10:13<00:00,  2.28it/s]
+test on Park 70k dataset
+Epoch 84 Test  Loss 0.0465 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.10it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3213
+test on SATNet dataset
+Epoch 84 Test  Loss 0.0475 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.72it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.0050
+Epoch 85 Train Loss 0.0443 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 85 Test  Loss 0.0456 Err: 0.1500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.13it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.3191
+test on SATNet dataset
+Epoch 85 Test  Loss 0.0471 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.73it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.0100
+Epoch 86 Train Loss 0.0438 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 86 Test  Loss 0.0461 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.11it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3189
+test on SATNet dataset
+Epoch 86 Test  Loss 0.0471 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.72it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.0070
+Epoch 87 Train Loss 0.0441 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:12<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 87 Test  Loss 0.0465 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.11it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3214
+test on SATNet dataset
+Epoch 87 Test  Loss 0.0475 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.68it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.0070
+Epoch 88 Train Loss 0.0440 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 88 Test  Loss 0.0460 Err: 0.3000: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.14it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.3223
+test on SATNet dataset
+Epoch 88 Test  Loss 0.0472 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.78it/s]
+TESTING SET RESULTS: Average loss: 0.0481 Err: 0.0080
+Epoch 89 Train Loss 0.0440 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [10:12<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 89 Test  Loss 0.0463 Err: 0.2750: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.12it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3215
+test on SATNet dataset
+Epoch 89 Test  Loss 0.0473 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.66it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.0100
+Epoch 90 Train Loss 0.0441 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 90 Test  Loss 0.0464 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.11it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3214
+test on SATNet dataset
+Epoch 90 Test  Loss 0.0474 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.71it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.0070
+Epoch 91 Train Loss 0.0437 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [10:12<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 91 Test  Loss 0.0464 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.10it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.3181
+test on SATNet dataset
+Epoch 91 Test  Loss 0.0473 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.70it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.0070
+Epoch 92 Train Loss 0.0442 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:12<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 92 Test  Loss 0.0462 Err: 0.2000: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.11it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3189
+test on SATNet dataset
+Epoch 92 Test  Loss 0.0471 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.69it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.0070
+Epoch 93 Train Loss 0.0437 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 93 Test  Loss 0.0465 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.13it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.3175
+test on SATNet dataset
+Epoch 93 Test  Loss 0.0472 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.68it/s]
+TESTING SET RESULTS: Average loss: 0.0481 Err: 0.0070
+Epoch 94 Train Loss 0.0435 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 94 Test  Loss 0.0459 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.12it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.3179
+test on SATNet dataset
+Epoch 94 Test  Loss 0.0471 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.72it/s]
+TESTING SET RESULTS: Average loss: 0.0480 Err: 0.0080
+Epoch 95 Train Loss 0.0438 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [10:12<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 95 Test  Loss 0.0464 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.13it/s]
+TESTING SET RESULTS: Average loss: 0.0484 Err: 0.3171
+test on SATNet dataset
+Epoch 95 Test  Loss 0.0471 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.72it/s]
+TESTING SET RESULTS: Average loss: 0.0481 Err: 0.0080
+Epoch 96 Train Loss 0.0435 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 96 Test  Loss 0.0459 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.09it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.3163
+test on SATNet dataset
+Epoch 96 Test  Loss 0.0471 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.72it/s]
+TESTING SET RESULTS: Average loss: 0.0480 Err: 0.0090
+Epoch 97 Train Loss 0.0436 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 97 Test  Loss 0.0459 Err: 0.2500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.12it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.3204
+test on SATNet dataset
+Epoch 97 Test  Loss 0.0472 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.73it/s]
+TESTING SET RESULTS: Average loss: 0.0481 Err: 0.0080
+Epoch 98 Train Loss 0.0436 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [10:12<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 98 Test  Loss 0.0459 Err: 0.2250: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.12it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.3234
+test on SATNet dataset
+Epoch 98 Test  Loss 0.0468 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.64it/s]
+TESTING SET RESULTS: Average loss: 0.0480 Err: 0.0080
+Epoch 99 Train Loss 0.0438 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 99 Test  Loss 0.0458 Err: 0.1500: 100%|████████████████████████████| 350/350 [01:08<00:00,  5.11it/s]
+TESTING SET RESULTS: Average loss: 0.0483 Err: 0.3198
+test on SATNet dataset
+Epoch 99 Test  Loss 0.0470 Err: 0.0000: 100%|██████████████████████████████| 25/25 [00:05<00:00,  4.69it/s]
+TESTING SET RESULTS: Average loss: 0.0480 Err: 0.0060
+Epoch 100 Train Loss 0.0439 Err: 0.2250: 100%|█████████████████████████| 1400/1400 [10:11<00:00,  2.29it/s]
+test on Park 70k dataset
+Epoch 100 Test  Loss 0.0463 Err: 0.2750: 100%|███████████████████████████| 350/350 [01:08<00:00,  5.12it/s]
+TESTING SET RESULTS: Average loss: 0.0482 Err: 0.3177
+test on SATNet dataset
+Epoch 100 Test  Loss 0.0471 Err: 0.0000: 100%|█████████████████████████████| 25/25 [00:05<00:00,  4.73it/s]
+TESTING SET RESULTS: Average loss: 0.0481 Err: 0.0070
+
+
+####################
+# Test SATNet (trained on Park 70k) on Palm dataset
+####################
+
+.../SATNet$ python exps/sudoku_test.py --save PATH/sudoku
+Using GeForce GTX 1080
+===> Loading data
+Reading Sudoku data from ./sudoku/palm_sudoku/test.csv
+Test on the whole Palm test data
+===> Building model
+The test dataset contains 18000 data instances
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it100.pth
+Epoch 100 Test  Loss 0.1268 Err: 0.8750: 100%|███████████████████████████| 450/450 [02:17<00:00,  3.27it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9353
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it99.pth
+Epoch 99 Test  Loss 0.1267 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9343
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it98.pth
+Epoch 98 Test  Loss 0.1266 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:17<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9361
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it97.pth
+Epoch 97 Test  Loss 0.1270 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1322 Err: 0.9343
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it96.pth
+Epoch 96 Test  Loss 0.1264 Err: 0.9250: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1322 Err: 0.9325
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it95.pth
+Epoch 95 Test  Loss 0.1264 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:17<00:00,  3.27it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9352
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it94.pth
+Epoch 94 Test  Loss 0.1269 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:17<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1321 Err: 0.9365
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it93.pth
+Epoch 93 Test  Loss 0.1267 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1322 Err: 0.9324
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it92.pth
+Epoch 92 Test  Loss 0.1279 Err: 0.9250: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1324 Err: 0.9353
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it91.pth
+Epoch 91 Test  Loss 0.1273 Err: 0.8000: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9362
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it90.pth
+Epoch 90 Test  Loss 0.1271 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.25it/s]
+TESTING SET RESULTS: Average loss: 0.1325 Err: 0.9371
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it89.pth
+Epoch 89 Test  Loss 0.1259 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9362
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it88.pth
+Epoch 88 Test  Loss 0.1271 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:17<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1322 Err: 0.9334
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it87.pth
+Epoch 87 Test  Loss 0.1260 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.25it/s]
+TESTING SET RESULTS: Average loss: 0.1325 Err: 0.9347
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it86.pth
+Epoch 86 Test  Loss 0.1262 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9345
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it85.pth
+Epoch 85 Test  Loss 0.1275 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1322 Err: 0.9349
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it84.pth
+Epoch 84 Test  Loss 0.1271 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:17<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1325 Err: 0.9353
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it83.pth
+Epoch 83 Test  Loss 0.1279 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1322 Err: 0.9362
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it82.pth
+Epoch 82 Test  Loss 0.1269 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1325 Err: 0.9358
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it81.pth
+Epoch 81 Test  Loss 0.1272 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9357
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it80.pth
+Epoch 80 Test  Loss 0.1264 Err: 0.8250: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9344
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it79.pth
+Epoch 79 Test  Loss 0.1268 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.25it/s]
+TESTING SET RESULTS: Average loss: 0.1325 Err: 0.9353
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it78.pth
+Epoch 78 Test  Loss 0.1256 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1324 Err: 0.9338
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it77.pth
+Epoch 77 Test  Loss 0.1280 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.25it/s]
+TESTING SET RESULTS: Average loss: 0.1324 Err: 0.9369
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it76.pth
+Epoch 76 Test  Loss 0.1276 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9342
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it75.pth
+Epoch 75 Test  Loss 0.1272 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1324 Err: 0.9357
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it74.pth
+Epoch 74 Test  Loss 0.1260 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1325 Err: 0.9371
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it73.pth
+Epoch 73 Test  Loss 0.1273 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1324 Err: 0.9384
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it72.pth
+Epoch 72 Test  Loss 0.1270 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1325 Err: 0.9394
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it71.pth
+Epoch 71 Test  Loss 0.1269 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.25it/s]
+TESTING SET RESULTS: Average loss: 0.1324 Err: 0.9378
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it70.pth
+Epoch 70 Test  Loss 0.1278 Err: 0.9250: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.25it/s]
+TESTING SET RESULTS: Average loss: 0.1324 Err: 0.9389
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it69.pth
+Epoch 69 Test  Loss 0.1272 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9353
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it68.pth
+Epoch 68 Test  Loss 0.1267 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.25it/s]
+TESTING SET RESULTS: Average loss: 0.1323 Err: 0.9375
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it67.pth
+Epoch 67 Test  Loss 0.1273 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.25it/s]
+TESTING SET RESULTS: Average loss: 0.1324 Err: 0.9397
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it66.pth
+Epoch 66 Test  Loss 0.1277 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1326 Err: 0.9384
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it65.pth
+Epoch 65 Test  Loss 0.1278 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1325 Err: 0.9388
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it64.pth
+Epoch 64 Test  Loss 0.1279 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1326 Err: 0.9382
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it63.pth
+Epoch 63 Test  Loss 0.1272 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1325 Err: 0.9403
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it62.pth
+Epoch 62 Test  Loss 0.1270 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1326 Err: 0.9373
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it61.pth
+Epoch 61 Test  Loss 0.1277 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1326 Err: 0.9376
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it60.pth
+Epoch 60 Test  Loss 0.1267 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1326 Err: 0.9394
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it59.pth
+Epoch 59 Test  Loss 0.1276 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.23it/s]
+TESTING SET RESULTS: Average loss: 0.1327 Err: 0.9407
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it58.pth
+Epoch 58 Test  Loss 0.1283 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1327 Err: 0.9388
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it57.pth
+Epoch 57 Test  Loss 0.1265 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.23it/s]
+TESTING SET RESULTS: Average loss: 0.1328 Err: 0.9399
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it56.pth
+Epoch 56 Test  Loss 0.1276 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.23it/s]
+TESTING SET RESULTS: Average loss: 0.1326 Err: 0.9404
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it55.pth
+Epoch 55 Test  Loss 0.1270 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.23it/s]
+TESTING SET RESULTS: Average loss: 0.1327 Err: 0.9417
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it54.pth
+Epoch 54 Test  Loss 0.1288 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.23it/s]
+TESTING SET RESULTS: Average loss: 0.1327 Err: 0.9391
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it53.pth
+Epoch 53 Test  Loss 0.1271 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1328 Err: 0.9423
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it52.pth
+Epoch 52 Test  Loss 0.1270 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1327 Err: 0.9388
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it51.pth
+Epoch 51 Test  Loss 0.1273 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.22it/s]
+TESTING SET RESULTS: Average loss: 0.1326 Err: 0.9412
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it50.pth
+Epoch 50 Test  Loss 0.1279 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1328 Err: 0.9406
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it49.pth
+Epoch 49 Test  Loss 0.1266 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1329 Err: 0.9412
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it48.pth
+Epoch 48 Test  Loss 0.1286 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1326 Err: 0.9377
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it47.pth
+Epoch 47 Test  Loss 0.1273 Err: 0.9250: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.24it/s]
+TESTING SET RESULTS: Average loss: 0.1329 Err: 0.9441
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it46.pth
+Epoch 46 Test  Loss 0.1262 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.23it/s]
+TESTING SET RESULTS: Average loss: 0.1328 Err: 0.9413
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it45.pth
+Epoch 45 Test  Loss 0.1275 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.25it/s]
+TESTING SET RESULTS: Average loss: 0.1331 Err: 0.9444
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it44.pth
+Epoch 44 Test  Loss 0.1273 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1331 Err: 0.9435
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it43.pth
+Epoch 43 Test  Loss 0.1263 Err: 0.8250: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1326 Err: 0.9406
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it42.pth
+Epoch 42 Test  Loss 0.1272 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.22it/s]
+TESTING SET RESULTS: Average loss: 0.1328 Err: 0.9393
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it41.pth
+Epoch 41 Test  Loss 0.1279 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1328 Err: 0.9407
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it40.pth
+Epoch 40 Test  Loss 0.1279 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1327 Err: 0.9407
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it39.pth
+Epoch 39 Test  Loss 0.1287 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1329 Err: 0.9419
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it38.pth
+Epoch 38 Test  Loss 0.1277 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.20it/s]
+TESTING SET RESULTS: Average loss: 0.1330 Err: 0.9401
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it37.pth
+Epoch 37 Test  Loss 0.1275 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1329 Err: 0.9406
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it36.pth
+Epoch 36 Test  Loss 0.1272 Err: 0.8250: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.20it/s]
+TESTING SET RESULTS: Average loss: 0.1329 Err: 0.9425
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it35.pth
+Epoch 35 Test  Loss 0.1261 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1329 Err: 0.9426
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it34.pth
+Epoch 34 Test  Loss 0.1268 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1330 Err: 0.9426
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it33.pth
+Epoch 33 Test  Loss 0.1276 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1330 Err: 0.9429
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it32.pth
+Epoch 32 Test  Loss 0.1277 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1332 Err: 0.9431
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it31.pth
+Epoch 31 Test  Loss 0.1278 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1333 Err: 0.9449
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it30.pth
+Epoch 30 Test  Loss 0.1280 Err: 0.8250: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.20it/s]
+TESTING SET RESULTS: Average loss: 0.1332 Err: 0.9444
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it29.pth
+Epoch 29 Test  Loss 0.1278 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.20it/s]
+TESTING SET RESULTS: Average loss: 0.1333 Err: 0.9458
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it28.pth
+Epoch 28 Test  Loss 0.1284 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1334 Err: 0.9479
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it27.pth
+Epoch 27 Test  Loss 0.1287 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1335 Err: 0.9467
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it26.pth
+Epoch 26 Test  Loss 0.1280 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.20it/s]
+TESTING SET RESULTS: Average loss: 0.1336 Err: 0.9468
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it25.pth
+Epoch 25 Test  Loss 0.1280 Err: 0.8250: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.20it/s]
+TESTING SET RESULTS: Average loss: 0.1336 Err: 0.9468
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it24.pth
+Epoch 24 Test  Loss 0.1292 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.20it/s]
+TESTING SET RESULTS: Average loss: 0.1339 Err: 0.9503
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it23.pth
+Epoch 23 Test  Loss 0.1284 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1339 Err: 0.9503
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it22.pth
+Epoch 22 Test  Loss 0.1294 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1340 Err: 0.9488
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it21.pth
+Epoch 21 Test  Loss 0.1293 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.20it/s]
+TESTING SET RESULTS: Average loss: 0.1342 Err: 0.9512
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it20.pth
+Epoch 20 Test  Loss 0.1287 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1343 Err: 0.9522
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it19.pth
+Epoch 19 Test  Loss 0.1303 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:20<00:00,  3.21it/s]
+TESTING SET RESULTS: Average loss: 0.1345 Err: 0.9550
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it18.pth
+Epoch 18 Test  Loss 0.1296 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.23it/s]
+TESTING SET RESULTS: Average loss: 0.1345 Err: 0.9562
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it17.pth
+Epoch 17 Test  Loss 0.1310 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:19<00:00,  3.22it/s]
+TESTING SET RESULTS: Average loss: 0.1346 Err: 0.9544
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it16.pth
+Epoch 16 Test  Loss 0.1307 Err: 0.9250: 100%|████████████████████████████| 450/450 [02:18<00:00,  3.25it/s]
+TESTING SET RESULTS: Average loss: 0.1348 Err: 0.9576
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it15.pth
+Epoch 15 Test  Loss 0.1306 Err: 0.8250: 100%|████████████████████████████| 450/450 [02:17<00:00,  3.26it/s]
+TESTING SET RESULTS: Average loss: 0.1350 Err: 0.9568
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it14.pth
+Epoch 14 Test  Loss 0.1308 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:17<00:00,  3.27it/s]
+TESTING SET RESULTS: Average loss: 0.1354 Err: 0.9602
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it13.pth
+Epoch 13 Test  Loss 0.1307 Err: 0.8500: 100%|████████████████████████████| 450/450 [02:16<00:00,  3.30it/s]
+TESTING SET RESULTS: Average loss: 0.1354 Err: 0.9603
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it12.pth
+Epoch 12 Test  Loss 0.1305 Err: 0.8750: 100%|████████████████████████████| 450/450 [02:14<00:00,  3.34it/s]
+TESTING SET RESULTS: Average loss: 0.1358 Err: 0.9635
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it11.pth
+Epoch 11 Test  Loss 0.1319 Err: 0.9000: 100%|████████████████████████████| 450/450 [02:13<00:00,  3.38it/s]
+TESTING SET RESULTS: Average loss: 0.1361 Err: 0.9636
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it10.pth
+Epoch 10 Test  Loss 0.1320 Err: 0.9250: 100%|████████████████████████████| 450/450 [02:12<00:00,  3.39it/s]
+TESTING SET RESULTS: Average loss: 0.1366 Err: 0.9648
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it9.pth
+Epoch 9 Test  Loss 0.1327 Err: 0.9500: 100%|█████████████████████████████| 450/450 [02:11<00:00,  3.41it/s]
+TESTING SET RESULTS: Average loss: 0.1367 Err: 0.9656
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it8.pth
+Epoch 8 Test  Loss 0.1332 Err: 0.9500: 100%|█████████████████████████████| 450/450 [02:10<00:00,  3.44it/s]
+TESTING SET RESULTS: Average loss: 0.1377 Err: 0.9692
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it7.pth
+Epoch 7 Test  Loss 0.1342 Err: 0.9750: 100%|█████████████████████████████| 450/450 [02:11<00:00,  3.41it/s]
+TESTING SET RESULTS: Average loss: 0.1380 Err: 0.9694
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it6.pth
+Epoch 6 Test  Loss 0.1358 Err: 0.9500: 100%|█████████████████████████████| 450/450 [02:07<00:00,  3.53it/s]
+TESTING SET RESULTS: Average loss: 0.1398 Err: 0.9756
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it5.pth
+Epoch 5 Test  Loss 0.1369 Err: 0.9500: 100%|█████████████████████████████| 450/450 [02:05<00:00,  3.59it/s]
+TESTING SET RESULTS: Average loss: 0.1412 Err: 0.9797
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it4.pth
+Epoch 4 Test  Loss 0.1406 Err: 0.9500: 100%|█████████████████████████████| 450/450 [02:01<00:00,  3.70it/s]
+TESTING SET RESULTS: Average loss: 0.1439 Err: 0.9807
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it3.pth
+Epoch 3 Test  Loss 0.1457 Err: 0.9750: 100%|█████████████████████████████| 450/450 [01:52<00:00,  3.99it/s]
+TESTING SET RESULTS: Average loss: 0.1509 Err: 0.9890
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it2.pth
+Epoch 2 Test  Loss 0.1704 Err: 1.0000: 100%|█████████████████████████████| 450/450 [01:37<00:00,  4.61it/s]
+TESTING SET RESULTS: Average loss: 0.1755 Err: 0.9978
+Load model PATH/sudoku-sudoku.boardSz3-aux300-m600-lr0.002-bsz40/it1.pth
+Epoch 1 Test  Loss 0.1826 Err: 1.0000: 100%|█████████████████████████████| 450/450 [01:42<00:00,  4.39it/s]
+TESTING SET RESULTS: Average loss: 0.1867 Err: 0.9994
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################
+# Train bigger SATNet on Park 70k dataset
+# Test bigger SATNet on Park 70k dataset
+####################
+
+.../SATNet$ python exps/sudoku.py --save PATH/sudoku2 --aux 400 --m 800
+Using GeForce GTX 1080
+===> Loading data
+===> Building model
+Epoch 0 Test  Loss 0.4097 Err: 1.0000: 100%|█████████████████████████████| 350/350 [04:03<00:00,  1.44it/s]
+TESTING SET RESULTS: Average loss: 0.4068 Err: 1.0000
+Epoch 1 Train Loss 0.0790 Err: 0.5500: 100%|███████████████████████████| 1400/1400 [28:35<00:00,  1.23s/it]
+Epoch 1 Test  Loss 0.0851 Err: 0.6000: 100%|█████████████████████████████| 350/350 [02:36<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0867 Err: 0.6654
+Epoch 2 Train Loss 0.0709 Err: 0.5000: 100%|███████████████████████████| 1400/1400 [20:36<00:00,  1.13it/s]
+Epoch 2 Test  Loss 0.0746 Err: 0.5250: 100%|█████████████████████████████| 350/350 [02:18<00:00,  2.52it/s]
+TESTING SET RESULTS: Average loss: 0.0759 Err: 0.5754
+Epoch 3 Train Loss 0.0587 Err: 0.3750: 100%|███████████████████████████| 1400/1400 [19:09<00:00,  1.22it/s]
+Epoch 3 Test  Loss 0.0612 Err: 0.4750: 100%|█████████████████████████████| 350/350 [02:16<00:00,  2.57it/s]
+TESTING SET RESULTS: Average loss: 0.0624 Err: 0.4932
+Epoch 4 Train Loss 0.0555 Err: 0.3750: 100%|███████████████████████████| 1400/1400 [19:37<00:00,  1.19it/s]
+Epoch 4 Test  Loss 0.0579 Err: 0.3750: 100%|█████████████████████████████| 350/350 [02:20<00:00,  2.49it/s]
+TESTING SET RESULTS: Average loss: 0.0588 Err: 0.4620
+Epoch 5 Train Loss 0.0537 Err: 0.4000: 100%|███████████████████████████| 1400/1400 [20:17<00:00,  1.15it/s]
+Epoch 5 Test  Loss 0.0558 Err: 0.3500: 100%|█████████████████████████████| 350/350 [02:25<00:00,  2.41it/s]
+TESTING SET RESULTS: Average loss: 0.0574 Err: 0.4513
+Epoch 6 Train Loss 0.0530 Err: 0.4250: 100%|███████████████████████████| 1400/1400 [20:42<00:00,  1.13it/s]
+Epoch 6 Test  Loss 0.0549 Err: 0.4000: 100%|█████████████████████████████| 350/350 [02:26<00:00,  2.39it/s]
+TESTING SET RESULTS: Average loss: 0.0565 Err: 0.4457
+Epoch 7 Train Loss 0.0521 Err: 0.3250: 100%|███████████████████████████| 1400/1400 [20:58<00:00,  1.11it/s]
+Epoch 7 Test  Loss 0.0539 Err: 0.3500: 100%|█████████████████████████████| 350/350 [02:29<00:00,  2.34it/s]
+TESTING SET RESULTS: Average loss: 0.0556 Err: 0.4386
+Epoch 8 Train Loss 0.0518 Err: 0.3750: 100%|███████████████████████████| 1400/1400 [21:10<00:00,  1.10it/s]
+Epoch 8 Test  Loss 0.0541 Err: 0.3500: 100%|█████████████████████████████| 350/350 [02:29<00:00,  2.34it/s]
+TESTING SET RESULTS: Average loss: 0.0549 Err: 0.4336
+Epoch 9 Train Loss 0.0503 Err: 0.4250: 100%|███████████████████████████| 1400/1400 [21:19<00:00,  1.09it/s]
+Epoch 9 Test  Loss 0.0526 Err: 0.3000: 100%|█████████████████████████████| 350/350 [02:33<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0543 Err: 0.4196
+Epoch 10 Train Loss 0.0503 Err: 0.4000: 100%|██████████████████████████| 1400/1400 [21:29<00:00,  1.09it/s]
+Epoch 10 Test  Loss 0.0529 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:30<00:00,  2.33it/s]
+TESTING SET RESULTS: Average loss: 0.0543 Err: 0.4260
+Epoch 11 Train Loss 0.0492 Err: 0.3250: 100%|██████████████████████████| 1400/1400 [21:37<00:00,  1.08it/s]
+Epoch 11 Test  Loss 0.0521 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0535 Err: 0.4095
+Epoch 12 Train Loss 0.0497 Err: 0.3250: 100%|██████████████████████████| 1400/1400 [21:43<00:00,  1.07it/s]
+Epoch 12 Test  Loss 0.0518 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.28it/s]
+TESTING SET RESULTS: Average loss: 0.0535 Err: 0.4116
+Epoch 13 Train Loss 0.0482 Err: 0.3250: 100%|██████████████████████████| 1400/1400 [21:51<00:00,  1.07it/s]
+Epoch 13 Test  Loss 0.0513 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0531 Err: 0.4025
+Epoch 14 Train Loss 0.0482 Err: 0.3500: 100%|██████████████████████████| 1400/1400 [21:54<00:00,  1.07it/s]
+Epoch 14 Test  Loss 0.0507 Err: 0.3750: 100%|████████████████████████████| 350/350 [02:37<00:00,  2.23it/s]
+TESTING SET RESULTS: Average loss: 0.0525 Err: 0.3946
+Epoch 15 Train Loss 0.0484 Err: 0.3250: 100%|██████████████████████████| 1400/1400 [21:59<00:00,  1.06it/s]
+Epoch 15 Test  Loss 0.0502 Err: 0.3500: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0524 Err: 0.3929
+Epoch 16 Train Loss 0.0478 Err: 0.3250: 100%|██████████████████████████| 1400/1400 [22:01<00:00,  1.06it/s]
+Epoch 16 Test  Loss 0.0497 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:38<00:00,  2.20it/s]
+TESTING SET RESULTS: Average loss: 0.0521 Err: 0.3854
+Epoch 17 Train Loss 0.0481 Err: 0.3750: 100%|██████████████████████████| 1400/1400 [22:05<00:00,  1.06it/s]
+Epoch 17 Test  Loss 0.0512 Err: 0.3500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0519 Err: 0.3871
+Epoch 18 Train Loss 0.0475 Err: 0.3500: 100%|██████████████████████████| 1400/1400 [22:06<00:00,  1.06it/s]
+Epoch 18 Test  Loss 0.0500 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0519 Err: 0.3884
+Epoch 19 Train Loss 0.0481 Err: 0.4500: 100%|██████████████████████████| 1400/1400 [22:07<00:00,  1.05it/s]
+Epoch 19 Test  Loss 0.0499 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0515 Err: 0.3844
+Epoch 20 Train Loss 0.0469 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [22:10<00:00,  1.05it/s]
+Epoch 20 Test  Loss 0.0499 Err: 0.3750: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0514 Err: 0.3772
+Epoch 21 Train Loss 0.0468 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:09<00:00,  1.05it/s]
+Epoch 21 Test  Loss 0.0494 Err: 0.3750: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0513 Err: 0.3757
+Epoch 22 Train Loss 0.0471 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [22:11<00:00,  1.05it/s]
+Epoch 22 Test  Loss 0.0493 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0511 Err: 0.3786
+Epoch 23 Train Loss 0.0471 Err: 0.3500: 100%|██████████████████████████| 1400/1400 [22:11<00:00,  1.05it/s]
+Epoch 23 Test  Loss 0.0493 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0509 Err: 0.3726
+Epoch 24 Train Loss 0.0467 Err: 0.3500: 100%|██████████████████████████| 1400/1400 [22:11<00:00,  1.05it/s]
+Epoch 24 Test  Loss 0.0490 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0508 Err: 0.3708
+Epoch 25 Train Loss 0.0466 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [22:11<00:00,  1.05it/s]
+Epoch 25 Test  Loss 0.0490 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0507 Err: 0.3666
+Epoch 26 Train Loss 0.0461 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:13<00:00,  1.05it/s]
+Epoch 26 Test  Loss 0.0486 Err: 0.3500: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0508 Err: 0.3689
+Epoch 27 Train Loss 0.0461 Err: 0.3000: 100%|██████████████████████████| 1400/1400 [22:13<00:00,  1.05it/s]
+Epoch 27 Test  Loss 0.0482 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0505 Err: 0.3603
+Epoch 28 Train Loss 0.0462 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [22:14<00:00,  1.05it/s]
+Epoch 28 Test  Loss 0.0484 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0504 Err: 0.3631
+Epoch 29 Train Loss 0.0456 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:13<00:00,  1.05it/s]
+Epoch 29 Test  Loss 0.0480 Err: 0.1750: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0503 Err: 0.3631
+Epoch 30 Train Loss 0.0464 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:13<00:00,  1.05it/s]
+Epoch 30 Test  Loss 0.0486 Err: 0.3250: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0504 Err: 0.3590
+Epoch 31 Train Loss 0.0457 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:14<00:00,  1.05it/s]
+Epoch 31 Test  Loss 0.0486 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0503 Err: 0.3576
+Epoch 32 Train Loss 0.0457 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [22:14<00:00,  1.05it/s]
+Epoch 32 Test  Loss 0.0474 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0502 Err: 0.3561
+Epoch 33 Train Loss 0.0457 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:15<00:00,  1.05it/s]
+Epoch 33 Test  Loss 0.0490 Err: 0.3500: 100%|████████████████████████████| 350/350 [02:37<00:00,  2.23it/s]
+TESTING SET RESULTS: Average loss: 0.0501 Err: 0.3553
+Epoch 34 Train Loss 0.0460 Err: 0.3250: 100%|██████████████████████████| 1400/1400 [22:13<00:00,  1.05it/s]
+Epoch 34 Test  Loss 0.0479 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0500 Err: 0.3544
+Epoch 35 Train Loss 0.0457 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [22:11<00:00,  1.05it/s]
+Epoch 35 Test  Loss 0.0486 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:37<00:00,  2.22it/s]
+TESTING SET RESULTS: Average loss: 0.0500 Err: 0.3515
+Epoch 36 Train Loss 0.0459 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [22:14<00:00,  1.05it/s]
+Epoch 36 Test  Loss 0.0482 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:37<00:00,  2.23it/s]
+TESTING SET RESULTS: Average loss: 0.0501 Err: 0.3537
+Epoch 37 Train Loss 0.0458 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:12<00:00,  1.05it/s]
+Epoch 37 Test  Loss 0.0477 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:39<00:00,  2.19it/s]
+TESTING SET RESULTS: Average loss: 0.0498 Err: 0.3494
+Epoch 38 Train Loss 0.0452 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:13<00:00,  1.05it/s]
+Epoch 38 Test  Loss 0.0482 Err: 0.2000: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0498 Err: 0.3536
+Epoch 39 Train Loss 0.0455 Err: 0.3000: 100%|██████████████████████████| 1400/1400 [22:12<00:00,  1.05it/s]
+Epoch 39 Test  Loss 0.0483 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0498 Err: 0.3499
+Epoch 40 Train Loss 0.0451 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:12<00:00,  1.05it/s]
+Epoch 40 Test  Loss 0.0474 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0499 Err: 0.3542
+Epoch 41 Train Loss 0.0457 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:13<00:00,  1.05it/s]
+Epoch 41 Test  Loss 0.0475 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0497 Err: 0.3479
+Epoch 42 Train Loss 0.0451 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [22:13<00:00,  1.05it/s]
+Epoch 42 Test  Loss 0.0473 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0497 Err: 0.3522
+Epoch 43 Train Loss 0.0450 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:13<00:00,  1.05it/s]
+Epoch 43 Test  Loss 0.0475 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0498 Err: 0.3529
+Epoch 44 Train Loss 0.0453 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:14<00:00,  1.05it/s]
+Epoch 44 Test  Loss 0.0479 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0496 Err: 0.3449
+Epoch 45 Train Loss 0.0452 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [22:11<00:00,  1.05it/s]
+Epoch 45 Test  Loss 0.0472 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.24it/s]
+TESTING SET RESULTS: Average loss: 0.0496 Err: 0.3427
+Epoch 46 Train Loss 0.0451 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:10<00:00,  1.05it/s]
+Epoch 46 Test  Loss 0.0479 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0496 Err: 0.3488
+Epoch 47 Train Loss 0.0448 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:09<00:00,  1.05it/s]
+Epoch 47 Test  Loss 0.0477 Err: 0.2000: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0496 Err: 0.3486
+Epoch 48 Train Loss 0.0455 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:12<00:00,  1.05it/s]
+Epoch 48 Test  Loss 0.0481 Err: 0.3250: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0496 Err: 0.3446
+Epoch 49 Train Loss 0.0448 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:13<00:00,  1.05it/s]
+Epoch 49 Test  Loss 0.0478 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.23it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.3467
+Epoch 50 Train Loss 0.0452 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [22:10<00:00,  1.05it/s]
+Epoch 50 Test  Loss 0.0482 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.28it/s]
+TESTING SET RESULTS: Average loss: 0.0500 Err: 0.3558
+Epoch 51 Train Loss 0.0458 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [21:50<00:00,  1.07it/s]
+Epoch 51 Test  Loss 0.0473 Err: 0.2000: 100%|████████████████████████████| 350/350 [02:32<00:00,  2.30it/s]
+TESTING SET RESULTS: Average loss: 0.0500 Err: 0.3576
+Epoch 52 Train Loss 0.0453 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [22:06<00:00,  1.06it/s]
+Epoch 52 Test  Loss 0.0475 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0495 Err: 0.3479
+Epoch 53 Train Loss 0.0450 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [21:58<00:00,  1.06it/s]
+Epoch 53 Test  Loss 0.0477 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:32<00:00,  2.29it/s]
+TESTING SET RESULTS: Average loss: 0.0499 Err: 0.3549
+Epoch 54 Train Loss 0.0447 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [21:56<00:00,  1.06it/s]
+Epoch 54 Test  Loss 0.0479 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.29it/s]
+TESTING SET RESULTS: Average loss: 0.0498 Err: 0.3519
+Epoch 55 Train Loss 0.0452 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:01<00:00,  1.06it/s]
+Epoch 55 Test  Loss 0.0477 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0498 Err: 0.3519
+Epoch 56 Train Loss 0.0452 Err: 0.3250: 100%|██████████████████████████| 1400/1400 [22:07<00:00,  1.05it/s]
+Epoch 56 Test  Loss 0.0469 Err: 0.2000: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0495 Err: 0.3473
+Epoch 57 Train Loss 0.0452 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [21:59<00:00,  1.06it/s]
+Epoch 57 Test  Loss 0.0473 Err: 0.1500: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.29it/s]
+TESTING SET RESULTS: Average loss: 0.0498 Err: 0.3510
+Epoch 58 Train Loss 0.0443 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:10<00:00,  1.05it/s]
+Epoch 58 Test  Loss 0.0477 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0497 Err: 0.3494
+Epoch 59 Train Loss 0.0453 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:00<00:00,  1.06it/s]
+Epoch 59 Test  Loss 0.0471 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0493 Err: 0.3421
+Epoch 60 Train Loss 0.0454 Err: 0.2750: 100%|██████████████████████████| 1400/1400 [22:05<00:00,  1.06it/s]
+Epoch 60 Test  Loss 0.0481 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:32<00:00,  2.30it/s]
+TESTING SET RESULTS: Average loss: 0.0497 Err: 0.3493
+Epoch 61 Train Loss 0.0450 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:02<00:00,  1.06it/s]
+Epoch 61 Test  Loss 0.0475 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.3420
+Epoch 62 Train Loss 0.0451 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:03<00:00,  1.06it/s]
+Epoch 62 Test  Loss 0.0478 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0496 Err: 0.3506
+Epoch 63 Train Loss 0.0446 Err: 0.1500: 100%|██████████████████████████| 1400/1400 [22:03<00:00,  1.06it/s]
+Epoch 63 Test  Loss 0.0471 Err: 0.2000: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.3461
+Epoch 64 Train Loss 0.0456 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:09<00:00,  1.05it/s]
+Epoch 64 Test  Loss 0.0477 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0495 Err: 0.3486
+Epoch 65 Train Loss 0.0445 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:06<00:00,  1.06it/s]
+Epoch 65 Test  Loss 0.0471 Err: 0.1750: 100%|████████████████████████████| 350/350 [02:37<00:00,  2.22it/s]
+TESTING SET RESULTS: Average loss: 0.0493 Err: 0.3414
+Epoch 66 Train Loss 0.0442 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:06<00:00,  1.06it/s]
+Epoch 66 Test  Loss 0.0478 Err: 0.3000: 100%|████████████████████████████| 350/350 [02:36<00:00,  2.23it/s]
+TESTING SET RESULTS: Average loss: 0.0493 Err: 0.3439
+Epoch 67 Train Loss 0.0451 Err: 0.3000: 100%|██████████████████████████| 1400/1400 [22:11<00:00,  1.05it/s]
+Epoch 67 Test  Loss 0.0477 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.3444
+Epoch 68 Train Loss 0.0451 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:05<00:00,  1.06it/s]
+Epoch 68 Test  Loss 0.0469 Err: 0.1500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0495 Err: 0.3449
+Epoch 69 Train Loss 0.0451 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:05<00:00,  1.06it/s]
+Epoch 69 Test  Loss 0.0475 Err: 0.3250: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.3461
+Epoch 70 Train Loss 0.0450 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:04<00:00,  1.06it/s]
+Epoch 70 Test  Loss 0.0466 Err: 0.1250: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0495 Err: 0.3444
+Epoch 71 Train Loss 0.0443 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:07<00:00,  1.05it/s]
+Epoch 71 Test  Loss 0.0471 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.25it/s]
+TESTING SET RESULTS: Average loss: 0.0493 Err: 0.3360
+Epoch 72 Train Loss 0.0449 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:08<00:00,  1.05it/s]
+Epoch 72 Test  Loss 0.0473 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.3409
+Epoch 73 Train Loss 0.0444 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:06<00:00,  1.06it/s]
+Epoch 73 Test  Loss 0.0471 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3444
+Epoch 74 Train Loss 0.0443 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [22:02<00:00,  1.06it/s]
+Epoch 74 Test  Loss 0.0471 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.3392
+Epoch 75 Train Loss 0.0452 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:03<00:00,  1.06it/s]
+Epoch 75 Test  Loss 0.0477 Err: 0.3250: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.3398
+Epoch 76 Train Loss 0.0451 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:04<00:00,  1.06it/s]
+Epoch 76 Test  Loss 0.0473 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0494 Err: 0.3420
+Epoch 77 Train Loss 0.0440 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:03<00:00,  1.06it/s]
+Epoch 77 Test  Loss 0.0464 Err: 0.1500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0491 Err: 0.3344
+Epoch 78 Train Loss 0.0446 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:04<00:00,  1.06it/s]
+Epoch 78 Test  Loss 0.0470 Err: 0.1500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0491 Err: 0.3384
+Epoch 79 Train Loss 0.0448 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [22:05<00:00,  1.06it/s]
+Epoch 79 Test  Loss 0.0468 Err: 0.2000: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3414
+Epoch 80 Train Loss 0.0450 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:10<00:00,  1.05it/s]
+Epoch 80 Test  Loss 0.0474 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0493 Err: 0.3422
+Epoch 81 Train Loss 0.0447 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:05<00:00,  1.06it/s]
+Epoch 81 Test  Loss 0.0473 Err: 0.3250: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.28it/s]
+TESTING SET RESULTS: Average loss: 0.0493 Err: 0.3409
+Epoch 82 Train Loss 0.0444 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:05<00:00,  1.06it/s]
+Epoch 82 Test  Loss 0.0472 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3366
+Epoch 83 Train Loss 0.0445 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:02<00:00,  1.06it/s]
+Epoch 83 Test  Loss 0.0467 Err: 0.2000: 100%|████████████████████████████| 350/350 [02:35<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0491 Err: 0.3336
+Epoch 84 Train Loss 0.0445 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [22:05<00:00,  1.06it/s]
+Epoch 84 Test  Loss 0.0463 Err: 0.2000: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.3347
+Epoch 85 Train Loss 0.0442 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [22:07<00:00,  1.05it/s]
+Epoch 85 Test  Loss 0.0467 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3394
+Epoch 86 Train Loss 0.0443 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:03<00:00,  1.06it/s]
+Epoch 86 Test  Loss 0.0464 Err: 0.2000: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3380
+Epoch 87 Train Loss 0.0446 Err: 0.2500: 100%|██████████████████████████| 1400/1400 [22:05<00:00,  1.06it/s]
+Epoch 87 Test  Loss 0.0466 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0491 Err: 0.3378
+Epoch 88 Train Loss 0.0441 Err: 0.1500: 100%|██████████████████████████| 1400/1400 [22:04<00:00,  1.06it/s]
+Epoch 88 Test  Loss 0.0463 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.3369
+Epoch 89 Train Loss 0.0441 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [22:05<00:00,  1.06it/s]
+Epoch 89 Test  Loss 0.0466 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3396
+Epoch 90 Train Loss 0.0443 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:03<00:00,  1.06it/s]
+Epoch 90 Test  Loss 0.0468 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3377
+Epoch 91 Train Loss 0.0450 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [22:03<00:00,  1.06it/s]
+Epoch 91 Test  Loss 0.0465 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3383
+Epoch 92 Train Loss 0.0451 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:04<00:00,  1.06it/s]
+Epoch 92 Test  Loss 0.0471 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0492 Err: 0.3353
+Epoch 93 Train Loss 0.0444 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [22:01<00:00,  1.06it/s]Epoch 93 Test  Loss 0.0461 Err: 0.2000: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.3340
+Epoch 94 Train Loss 0.0446 Err: 0.2000: 100%|██████████████████████████| 1400/1400 [21:59<00:00,  1.06it/s]
+Epoch 94 Test  Loss 0.0463 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.3345
+Epoch 95 Train Loss 0.0442 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [21:59<00:00,  1.06it/s]
+Epoch 95 Test  Loss 0.0465 Err: 0.1500: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.28it/s]
+TESTING SET RESULTS: Average loss: 0.0489 Err: 0.3351
+Epoch 96 Train Loss 0.0442 Err: 0.1750: 100%|██████████████████████████| 1400/1400 [22:02<00:00,  1.06it/s]
+Epoch 96 Test  Loss 0.0469 Err: 0.2500: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0491 Err: 0.3362
+Epoch 97 Train Loss 0.0454 Err: 0.3250: 100%|██████████████████████████| 1400/1400 [22:03<00:00,  1.06it/s]
+Epoch 97 Test  Loss 0.0463 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.28it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.3357
+Epoch 98 Train Loss 0.0441 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:00<00:00,  1.06it/s]
+Epoch 98 Test  Loss 0.0470 Err: 0.2250: 100%|████████████████████████████| 350/350 [02:34<00:00,  2.27it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.3378
+Epoch 99 Train Loss 0.0444 Err: 0.2250: 100%|██████████████████████████| 1400/1400 [22:00<00:00,  1.06it/s]Epoch 99 Test  Loss 0.0469 Err: 0.2750: 100%|████████████████████████████| 350/350 [02:33<00:00,  2.28it/s]
+TESTING SET RESULTS: Average loss: 0.0490 Err: 0.3342
+Epoch 100 Train Loss 0.0444 Err: 0.2000: 100%|█████████████████████████| 1400/1400 [22:02<00:00,  1.06it/s]
+Epoch 100 Test  Loss 0.0466 Err: 0.3000: 100%|███████████████████████████| 350/350 [02:35<00:00,  2.26it/s]
+TESTING SET RESULTS: Average loss: 0.0489 Err: 0.3360
