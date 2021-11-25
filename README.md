@@ -46,6 +46,7 @@ conda install pytorch==1.8.1 torchvision==0.9.1 cpuonly -c pytorch
 ├── logs                    # The folder that includes some logs of experiments
 └── README.md
 ```
+Note that all `.cnf` files in the `cnf` folder are in [DIMACS format](https://people.sc.fsu.edu/~jburkardt/data/cnf/cnf.html) where a clause is defined by listing the index of each positive literal, and the negative index of each negative literal. Indices are 1-based, and for obvious reasons the index 0 is not allowed.
 
 ## How to Run
 You can test all simple benchmark problems by executing the following command.
