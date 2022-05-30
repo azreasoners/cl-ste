@@ -1,8 +1,8 @@
-# LC-CNF
-Injecting explicit logical constraints (CNF) into neural network via Straight-Through-Estimators 
+# STE for Learning
+Injecting Logical Constraints into Neural Networks via Straight-Through-Estimators 
 
 ## Introduction
-This repository provides the codes, instructions, and logs for all the experiments reported in the paper "Efficient Way of Injecting Explicit Logical Constraints into Neural Networks via Straight-Through-Estimators".
+This repository provides the codes, instructions, and logs for all the experiments reported in the paper "Injecting Logical Constraints into Neural Networks via Straight-Through-Estimators".
 
 ## Installation
 1. Install Anaconda according to its [installation page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
@@ -11,17 +11,22 @@ This repository provides the codes, instructions, and logs for all the experimen
 conda create -n ste python=3.7
 conda activate ste
 ```
-3. Install tqdm and Numpy
+3. Install tqdm, Numpy, Pandas, and wandb
 ```bash
-conda install -c anaconda tqdm numpy
+conda install -c anaconda tqdm numpy pandas
+pip install wandb
 ```
-4. Install Pytorch either with cuda (GPU) support
+4. Install Pytorch according to its [Get-Started page](https://pytorch.org/get-started/locally/). Below is an example command we used on Linux with cuda 10.2.
 ```bash
-conda install pytorch==1.8.1 torchvision==0.9.1 cudatoolkit=11.1 -c pytorch -c conda-forge
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 ```
 or for CPU only
 ```bash
-conda install pytorch==1.8.1 torchvision==0.9.1 cpuonly -c pytorch
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+```
+5. Install the DGL package for GNN experiments
+```
+conda install -c dglteam dgl-cuda10.2 requests
 ```
 
 ## File/Folder Description
@@ -34,6 +39,9 @@ conda install pytorch==1.8.1 torchvision==0.9.1 cpuonly -c pytorch
 ├── inference_trick.py      # The script to run inference trick for Sudoku problems
 ├── testBenchmark.sh        # The bash file to test all simple benchmark problems
 ├── problems                # The folder that includes multiple python scripts, one for each problem
+├── sudoku_gnn              # The folder that includes the codes for Sudoku-GNN experiments
+│   ├── rrn                 # The folder for RRN experiments
+│   ├── gnn                 # The folder for typical GNN experiments
 ├── data                    # The folder that includes all the data
 │   ├── hasy                # The operator dataset for apply2x2 problem from NeuroLog
 │   ├── palm_sudoku         # The sudoku dataset from RRN (Palm)
@@ -46,7 +54,6 @@ conda install pytorch==1.8.1 torchvision==0.9.1 cpuonly -c pytorch
 ├── logs                    # The folder that includes some logs of experiments
 └── README.md
 ```
-Note that all `.cnf` files in the `cnf` folder are in [DIMACS format](https://people.sc.fsu.edu/~jburkardt/data/cnf/cnf.html) where a clause is defined by listing the index of each positive literal, and the negative index of each negative literal. Indices are 1-based, and for obvious reasons the index 0 is not allowed.
 
 ## How to Run
 You can test all simple benchmark problems by executing the following command.
@@ -54,7 +61,7 @@ You can test all simple benchmark problems by executing the following command.
 bash testBenchmark.sh
 ```
 
-You can also try the following commands to test individual problems. More descriptions about each option are available in `main.py`. 
+You can also try the following commands to test individual problems. More descriptions about each option are available in `main.py`. The Sudoku GNN experiments are implemented in a separate folder "sudoku_gnn" to allow for the flexibility of both supervised and semi-supervised learning with different datasets.
 
 1. mnistAdd, mnistAdd with batch size 16, mnistAdd2, mnistAdd3
 ```
@@ -63,7 +70,7 @@ python main.py --domain mnistAddcnf --epochs 1 --lr 0.001 --batchSize 16
 python main.py --domain mnistAdd2cnf --epochs 1 --lr 0.001 --hyper 1 0.01
 python main.py --domain mnistAdd3cnf --epochs 1 --lr 0.001 --hyper 1 0.001
 ```
-Note that the 2 numbers after "--hyper" are the weights for L_cnf and L_bound. As discussed in appendix D, we only need to adjust the weight of L_bound to make the absolute value of raw NN output not too big/small. Similar high accuracy could be achieved with a big range of weights of L_bound.
+Note that the 2 numbers after "--hyper" are the weights for L_cnf and L_bound. We fine-tune the weights in mnistAdd example to achieve the best accuracy within a single epoch. (We only need to adjust the weight of L_bound to make the absolute value of raw NN output not too big/small. Similar high accuracy could be achieved with a big range of weights of L_bound.) 
 
 2. add2x2, apply2x2, member3, member5
 ```
@@ -73,14 +80,32 @@ python main.py --domain member3cnf --numData 3000
 python main.py --domain member5cnf --numData 3000
 ```
 
-3. sudoku: [Park's CNN](https://github.com/Kyubyong/sudoku) training with STE and testing with [inference trick](https://github.com/Kyubyong/sudoku) on Park (sudokucnf) or Palm dataset (sudokuPalmcnf)
+3. Sudoku CNN: [Park's CNN](https://github.com/Kyubyong/sudoku) training with STE and testing with [inference trick](https://github.com/Kyubyong/sudoku) on Park (sudokucnf) or Palm dataset (sudokuPalmcnf)
 ```
 python main.py --domain sudokucnf --reg cnf bound --epochs 30 --gpu --bn --checkAcc --bar --folder ./trained --save sudoku
 python inference_trick.py --gpu --bn --folder ./trained --domain sudokucnf
 python inference_trick.py --gpu --bn --folder ./trained --domain sudokuPalmcnf
 ```
+For the GNN experiments of Sudoku, please refer to the README.md file in "sudoku_gnn" folder.
 
-4. shortestPath
+4. Sudoku GNN
+- [RRN from DGL](https://github.com/dmlc/dgl/tree/master/examples/pytorch/rrn)
+
+More instructions are available at `sudoku_gnn/rrn/README.md`.
+```
+cd sudoku_gnn/rrn
+python main.py --output_dir out/ --do_train --batch_size 16 --batch_label 16 --num_train 10000 --gpu 0 --loss cross cont cnf bound
+```
+
+- [GNN from Kaggle](https://www.kaggle.com/matteoturla/can-graph-neural-network-solve-sudoku)
+
+More instructions are available at `sudoku_gnn/gnn/README.md`.
+```
+cd sudoku_gnn/gnn
+python main.py --epochs 20 --gpu 0 --loss cross cnf bound cont --num_examples 10000
+```
+
+5. shortestPath
 ```
 python main.py --domain shortestPathcnf --reg cross cnf bound --epochs 500 --lr 0.002 --checkAcc --gpu --batchSize 32 --hyper 0.2 1
 ```

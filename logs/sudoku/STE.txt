@@ -132,3 +132,1230 @@ Reading Sudoku data from ./data/palm_sudoku/test.csv
 Test on the complete Palm test data with 17~34 given numbers
 100%|████████████████████████████████████████████████████████████████████| 563/563 [09:18<00:00,  1.01it/s]
 model: PATH/sudoku_epoch_30.pt,         0.7483  0.2737
+
+
+
+
+
+####################
+# Train RRN with STE on 10k training data from Palm dataset
+####################
+
+(rrn-dgl) ste-learning/sudoku_gnn/rrn$ python main.py --output_dir out/ --do_train --batch_size 16 --batch_label 16 --num_train 10000 --gpu 0 --loss cross cont cnf bound
+Using GPU 0
+
+The CNF is represented by a matrix C of shape torch.Size([8991, 729]):
+tensor([[ 1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [-1.,  0.,  0.,  ...,  0.,  0.,  0.],
+        ...,
+        [ 0.,  0.,  0.,  ...,  0.,  0.,  0.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.],
+        [ 0.,  0.,  0.,  ...,  0.,  0., -1.]])
+The used STE losses: ['cross', 'cont', 'cnf', 'bound']
+Reading train.csv...
+Number of puzzles in train set : 180000
+We use 10000 out of 180000 data instances for training.
+Reading valid.csv...
+Number of puzzles in valid set : 18000
+Reading test.csv...
+Number of puzzles in test set : 18000
+Epoch 0, batch 0, loss 2.4016807079315186
+Epoch 0, batch 100, loss 2.215575695037842
+Epoch 0, batch 200, loss 1.930709958076477
+Epoch 0, batch 300, loss 1.8354442119598389
+Epoch 0, batch 400, loss 1.7645459175109863
+Epoch 0, batch 500, loss 1.6934001445770264
+Epoch 0, batch 600, loss 1.6248551607131958
+
+=========Dev step========
+Dev loss 1.2690305709838867, accuracy 0.0
+Best dev accuracy 0.0
+
+Epoch 1, batch 0, loss 1.5495275259017944
+Epoch 1, batch 100, loss 1.4723378419876099
+Epoch 1, batch 200, loss 1.4252381324768066
+Epoch 1, batch 300, loss 1.386874794960022
+Epoch 1, batch 400, loss 1.3292590379714966
+Epoch 1, batch 500, loss 1.3125971555709839
+Epoch 1, batch 600, loss 1.24964439868927
+
+=========Dev step========
+Dev loss 0.8513669967651367, accuracy 0.3
+Best dev accuracy 0.3
+
+Epoch 2, batch 0, loss 1.2730613946914673
+Epoch 2, batch 100, loss 1.2455623149871826
+Epoch 2, batch 200, loss 1.2518572807312012
+Epoch 2, batch 300, loss 1.1354317665100098
+Epoch 2, batch 400, loss 1.1639831066131592
+Epoch 2, batch 500, loss 1.1849688291549683
+Epoch 2, batch 600, loss 1.1226279735565186
+
+=========Dev step========
+Dev loss 0.6569317579269409, accuracy 11.3
+Best dev accuracy 11.3
+
+Epoch 3, batch 0, loss 1.1450880765914917
+Epoch 3, batch 100, loss 1.033514142036438
+Epoch 3, batch 200, loss 1.1540007591247559
+Epoch 3, batch 300, loss 1.1058096885681152
+Epoch 3, batch 400, loss 0.969160258769989
+Epoch 3, batch 500, loss 1.0416392087936401
+Epoch 3, batch 600, loss 1.2233948707580566
+
+=========Dev step========
+Dev loss 0.5968883633613586, accuracy 23.200000000000003
+Best dev accuracy 23.200000000000003
+
+Epoch 4, batch 0, loss 0.976327657699585
+Epoch 4, batch 100, loss 1.0909572839736938
+Epoch 4, batch 200, loss 1.0469287633895874
+Epoch 4, batch 300, loss 0.9815377593040466
+Epoch 4, batch 400, loss 1.038691520690918
+Epoch 4, batch 500, loss 0.921964168548584
+Epoch 4, batch 600, loss 1.1181260347366333
+
+=========Dev step========
+Dev loss 0.5723185539245605, accuracy 28.9
+Best dev accuracy 28.9
+
+Epoch 5, batch 0, loss 1.0181370973587036
+Epoch 5, batch 100, loss 0.9946591258049011
+Epoch 5, batch 200, loss 0.9765711426734924
+Epoch 5, batch 300, loss 1.0703753232955933
+Epoch 5, batch 400, loss 0.8670008182525635
+Epoch 5, batch 500, loss 0.8910653591156006
+Epoch 5, batch 600, loss 0.84415602684021
+
+=========Dev step========
+Dev loss 0.5309178829193115, accuracy 36.8
+Best dev accuracy 36.8
+
+Epoch 6, batch 0, loss 0.9539094567298889
+Epoch 6, batch 100, loss 0.8209481239318848
+Epoch 6, batch 200, loss 0.881792426109314
+Epoch 6, batch 300, loss 0.8674910068511963
+Epoch 6, batch 400, loss 0.9077675938606262
+Epoch 6, batch 500, loss 0.8426131010055542
+Epoch 6, batch 600, loss 0.988804817199707
+
+=========Dev step========
+Dev loss 0.5102454423904419, accuracy 40.0
+Best dev accuracy 40.0
+
+Epoch 7, batch 0, loss 0.8245803713798523
+Epoch 7, batch 100, loss 1.02470064163208
+Epoch 7, batch 200, loss 0.985406219959259
+Epoch 7, batch 300, loss 0.9013879895210266
+Epoch 7, batch 400, loss 0.9329013824462891
+Epoch 7, batch 500, loss 0.8703332543373108
+Epoch 7, batch 600, loss 0.9242701530456543
+
+=========Dev step========
+Dev loss 0.4954140782356262, accuracy 42.6
+Best dev accuracy 42.6
+
+Epoch 8, batch 0, loss 0.8371691107749939
+Epoch 8, batch 100, loss 0.8741913437843323
+Epoch 8, batch 200, loss 0.8840571045875549
+Epoch 8, batch 300, loss 0.9652122259140015
+Epoch 8, batch 400, loss 0.8121580481529236
+Epoch 8, batch 500, loss 0.9429754614830017
+Epoch 8, batch 600, loss 0.7438881397247314
+
+=========Dev step========
+Dev loss 0.47135695815086365, accuracy 43.1
+Best dev accuracy 43.1
+
+Epoch 9, batch 0, loss 0.9803246855735779
+Epoch 9, batch 100, loss 0.9375447034835815
+Epoch 9, batch 200, loss 0.9687777757644653
+Epoch 9, batch 300, loss 0.8507430553436279
+Epoch 9, batch 400, loss 0.7942715883255005
+Epoch 9, batch 500, loss 0.7754368185997009
+Epoch 9, batch 600, loss 0.8186341524124146
+
+=========Dev step========
+Dev loss 0.4636787176132202, accuracy 47.0
+Best dev accuracy 47.0
+
+Epoch 10, batch 0, loss 0.7604594826698303
+Epoch 10, batch 100, loss 0.9632890224456787
+Epoch 10, batch 200, loss 0.9092771410942078
+Epoch 10, batch 300, loss 0.9342643618583679
+Epoch 10, batch 400, loss 0.7068254947662354
+Epoch 10, batch 500, loss 0.7446717619895935
+Epoch 10, batch 600, loss 0.8125286102294922
+
+=========Dev step========
+Dev loss 0.4532417058944702, accuracy 48.6
+Best dev accuracy 48.6
+
+Epoch 11, batch 0, loss 0.7782637476921082
+Epoch 11, batch 100, loss 0.8228899836540222
+Epoch 11, batch 200, loss 0.7065809965133667
+Epoch 11, batch 300, loss 0.8672892451286316
+Epoch 11, batch 400, loss 0.8615745902061462
+Epoch 11, batch 500, loss 0.6924003958702087
+Epoch 11, batch 600, loss 0.8146706223487854
+
+=========Dev step========
+Dev loss 0.46897828578948975, accuracy 50.6
+Best dev accuracy 50.6
+
+Epoch 12, batch 0, loss 0.7416338324546814
+Epoch 12, batch 100, loss 0.9221774935722351
+Epoch 12, batch 200, loss 0.8147726655006409
+Epoch 12, batch 300, loss 0.9041793346405029
+Epoch 12, batch 400, loss 0.7560386061668396
+Epoch 12, batch 500, loss 0.7746039032936096
+Epoch 12, batch 600, loss 0.7876838445663452
+
+=========Dev step========
+Dev loss 0.4519573152065277, accuracy 50.8
+Best dev accuracy 50.8
+
+Epoch 13, batch 0, loss 0.7658181190490723
+Epoch 13, batch 100, loss 0.9691841006278992
+Epoch 13, batch 200, loss 0.708591878414154
+Epoch 13, batch 300, loss 0.7944139242172241
+Epoch 13, batch 400, loss 0.8525892496109009
+Epoch 13, batch 500, loss 0.8263654708862305
+Epoch 13, batch 600, loss 0.6973876357078552
+
+=========Dev step========
+Dev loss 0.4717438817024231, accuracy 50.7
+Best dev accuracy 50.8
+
+Epoch 14, batch 0, loss 0.9229797720909119
+Epoch 14, batch 100, loss 0.8473530411720276
+Epoch 14, batch 200, loss 1.0196895599365234
+Epoch 14, batch 300, loss 0.8643319606781006
+Epoch 14, batch 400, loss 0.948308527469635
+Epoch 14, batch 500, loss 0.8847424983978271
+Epoch 14, batch 600, loss 0.8214823007583618
+
+=========Dev step========
+Dev loss 0.4291918873786926, accuracy 54.0
+Best dev accuracy 54.0
+
+Epoch 15, batch 0, loss 0.7481696605682373
+Epoch 15, batch 100, loss 0.8503968715667725
+Epoch 15, batch 200, loss 0.714076817035675
+Epoch 15, batch 300, loss 0.9128797054290771
+Epoch 15, batch 400, loss 1.0472880601882935
+Epoch 15, batch 500, loss 0.8812614679336548
+Epoch 15, batch 600, loss 0.7465555667877197
+
+=========Dev step========
+Dev loss 0.42993423342704773, accuracy 55.1
+Best dev accuracy 55.1
+
+Epoch 16, batch 0, loss 0.8502783179283142
+Epoch 16, batch 100, loss 0.7733726501464844
+Epoch 16, batch 200, loss 0.8576537370681763
+Epoch 16, batch 300, loss 0.9664115309715271
+Epoch 16, batch 400, loss 0.898244321346283
+Epoch 16, batch 500, loss 0.8631505370140076
+Epoch 16, batch 600, loss 0.8172652125358582
+
+=========Dev step========
+Dev loss 0.4117823839187622, accuracy 55.50000000000001
+Best dev accuracy 55.50000000000001
+
+Epoch 17, batch 0, loss 0.8977707624435425
+Epoch 17, batch 100, loss 0.8503389954566956
+Epoch 17, batch 200, loss 0.7684277892112732
+Epoch 17, batch 300, loss 0.8437675833702087
+Epoch 17, batch 400, loss 0.8532140851020813
+Epoch 17, batch 500, loss 0.5848104357719421
+Epoch 17, batch 600, loss 0.8924349546432495
+
+=========Dev step========
+Dev loss 0.42608529329299927, accuracy 52.1
+Best dev accuracy 55.50000000000001
+
+Epoch 18, batch 0, loss 0.7765843272209167
+Epoch 18, batch 100, loss 0.9509228467941284
+Epoch 18, batch 200, loss 0.8191633224487305
+Epoch 18, batch 300, loss 0.6290624141693115
+Epoch 18, batch 400, loss 0.8836877346038818
+Epoch 18, batch 500, loss 0.8097609281539917
+Epoch 18, batch 600, loss 0.779394805431366
+
+=========Dev step========
+Dev loss 0.4514572024345398, accuracy 54.900000000000006
+Best dev accuracy 55.50000000000001
+
+Epoch 19, batch 0, loss 0.7517861723899841
+Epoch 19, batch 100, loss 0.8471683263778687
+Epoch 19, batch 200, loss 0.8682094812393188
+Epoch 19, batch 300, loss 0.794091522693634
+Epoch 19, batch 400, loss 0.7823532819747925
+Epoch 19, batch 500, loss 0.7385348677635193
+Epoch 19, batch 600, loss 0.688125729560852
+
+=========Dev step========
+Dev loss 0.40479451417922974, accuracy 57.599999999999994
+Best dev accuracy 57.599999999999994
+
+Epoch 20, batch 0, loss 0.802152693271637
+Epoch 20, batch 100, loss 0.7413344979286194
+Epoch 20, batch 200, loss 0.7217401266098022
+Epoch 20, batch 300, loss 0.7571560740470886
+Epoch 20, batch 400, loss 0.802226185798645
+Epoch 20, batch 500, loss 0.8380559086799622
+Epoch 20, batch 600, loss 0.6886594891548157
+
+=========Dev step========
+Dev loss 0.3966127038002014, accuracy 58.4
+Best dev accuracy 58.4
+
+Epoch 21, batch 0, loss 0.75272536277771
+Epoch 21, batch 100, loss 0.8462365865707397
+Epoch 21, batch 200, loss 0.6402220129966736
+Epoch 21, batch 300, loss 0.9389657974243164
+Epoch 21, batch 400, loss 0.7504631280899048
+Epoch 21, batch 500, loss 0.7888731360435486
+Epoch 21, batch 600, loss 0.7482722401618958
+
+=========Dev step========
+Dev loss 0.42030850052833557, accuracy 56.8
+Best dev accuracy 58.4
+
+Epoch 22, batch 0, loss 0.9004489779472351
+Epoch 22, batch 100, loss 0.687795877456665
+Epoch 22, batch 200, loss 0.8985202312469482
+Epoch 22, batch 300, loss 0.6884533166885376
+Epoch 22, batch 400, loss 0.8362147212028503
+Epoch 22, batch 500, loss 0.7032239437103271
+Epoch 22, batch 600, loss 0.817959189414978
+
+=========Dev step========
+Dev loss 0.40529578924179077, accuracy 56.99999999999999
+Best dev accuracy 58.4
+
+Epoch 23, batch 0, loss 0.748107373714447
+Epoch 23, batch 100, loss 0.8185783624649048
+Epoch 23, batch 200, loss 0.7466035485267639
+Epoch 23, batch 300, loss 0.8419272303581238
+Epoch 23, batch 400, loss 0.8054479956626892
+Epoch 23, batch 500, loss 0.7234675884246826
+Epoch 23, batch 600, loss 0.6684651374816895
+
+=========Dev step========
+Dev loss 0.3948216736316681, accuracy 57.8
+Best dev accuracy 58.4
+
+Epoch 24, batch 0, loss 0.724357008934021
+Epoch 24, batch 100, loss 0.9219133853912354
+Epoch 24, batch 200, loss 0.8693435192108154
+Epoch 24, batch 300, loss 0.7483027577400208
+Epoch 24, batch 400, loss 0.9630293846130371
+Epoch 24, batch 500, loss 0.8227539658546448
+Epoch 24, batch 600, loss 0.9276964068412781
+
+=========Dev step========
+Dev loss 0.405144602060318, accuracy 57.699999999999996
+Best dev accuracy 58.4
+
+Epoch 25, batch 0, loss 0.7219146490097046
+Epoch 25, batch 100, loss 0.7269469499588013
+Epoch 25, batch 200, loss 0.8053238987922668
+Epoch 25, batch 300, loss 0.8144534826278687
+Epoch 25, batch 400, loss 0.7981696724891663
+Epoch 25, batch 500, loss 0.8250475525856018
+Epoch 25, batch 600, loss 0.6486059427261353
+
+=========Dev step========
+Dev loss 0.43931514024734497, accuracy 55.7
+Best dev accuracy 58.4
+
+Epoch 26, batch 0, loss 0.8694015145301819
+Epoch 26, batch 100, loss 0.7850548624992371
+Epoch 26, batch 200, loss 0.5274698138237
+Epoch 26, batch 300, loss 0.7067002654075623
+Epoch 26, batch 400, loss 0.7922379374504089
+Epoch 26, batch 500, loss 0.7435608506202698
+Epoch 26, batch 600, loss 0.7826496362686157
+
+=========Dev step========
+Dev loss 0.3838421404361725, accuracy 61.7
+Best dev accuracy 61.7
+
+Epoch 27, batch 0, loss 0.8079203367233276
+Epoch 27, batch 100, loss 0.8246414661407471
+Epoch 27, batch 200, loss 0.787900984287262
+Epoch 27, batch 300, loss 0.8671841621398926
+Epoch 27, batch 400, loss 0.9565450549125671
+Epoch 27, batch 500, loss 0.7376508116722107
+Epoch 27, batch 600, loss 0.8529140949249268
+
+=========Dev step========
+Dev loss 0.4019523561000824, accuracy 59.9
+Best dev accuracy 61.7
+
+Epoch 28, batch 0, loss 0.7180526256561279
+Epoch 28, batch 100, loss 0.9884799718856812
+Epoch 28, batch 200, loss 0.7617026567459106
+Epoch 28, batch 300, loss 0.7199761271476746
+Epoch 28, batch 400, loss 0.6718630194664001
+Epoch 28, batch 500, loss 0.7747777700424194
+Epoch 28, batch 600, loss 0.8825323581695557
+
+=========Dev step========
+Dev loss 0.38375529646873474, accuracy 61.199999999999996
+Best dev accuracy 61.7
+
+Epoch 29, batch 0, loss 0.8109179139137268
+Epoch 29, batch 100, loss 0.9354716539382935
+Epoch 29, batch 200, loss 0.8346744179725647
+Epoch 29, batch 300, loss 0.8984116911888123
+Epoch 29, batch 400, loss 0.6110155582427979
+Epoch 29, batch 500, loss 0.791926383972168
+Epoch 29, batch 600, loss 0.7478993535041809
+
+=========Dev step========
+Dev loss 0.39943745732307434, accuracy 60.6
+Best dev accuracy 61.7
+
+Epoch 30, batch 0, loss 0.6995962858200073
+Epoch 30, batch 100, loss 0.7302132844924927
+Epoch 30, batch 200, loss 0.7366184592247009
+Epoch 30, batch 300, loss 0.7234205007553101
+Epoch 30, batch 400, loss 0.7779631614685059
+Epoch 30, batch 500, loss 0.6965445876121521
+Epoch 30, batch 600, loss 0.7727292776107788
+
+=========Dev step========
+Dev loss 0.3995097279548645, accuracy 61.4
+Best dev accuracy 61.7
+
+Epoch 31, batch 0, loss 0.695358157157898
+Epoch 31, batch 100, loss 0.825498104095459
+Epoch 31, batch 200, loss 0.7274710536003113
+Epoch 31, batch 300, loss 0.7687430381774902
+Epoch 31, batch 400, loss 0.8259946703910828
+Epoch 31, batch 500, loss 0.6298646330833435
+Epoch 31, batch 600, loss 0.7497662901878357
+
+=========Dev step========
+Dev loss 0.3930668234825134, accuracy 57.4
+Best dev accuracy 61.7
+
+Epoch 32, batch 0, loss 0.7848524451255798
+Epoch 32, batch 100, loss 0.830270528793335
+Epoch 32, batch 200, loss 1.009487271308899
+Epoch 32, batch 300, loss 0.8587643504142761
+Epoch 32, batch 400, loss 0.6921318173408508
+Epoch 32, batch 500, loss 0.7728068828582764
+Epoch 32, batch 600, loss 0.7567257285118103
+
+=========Dev step========
+Dev loss 0.3904120922088623, accuracy 62.1
+Best dev accuracy 62.1
+
+Epoch 33, batch 0, loss 0.6126731634140015
+Epoch 33, batch 100, loss 0.7801458835601807
+Epoch 33, batch 200, loss 0.6333830952644348
+Epoch 33, batch 300, loss 0.9555814266204834
+Epoch 33, batch 400, loss 0.6566123366355896
+Epoch 33, batch 500, loss 0.8567337393760681
+Epoch 33, batch 600, loss 0.8744345307350159
+
+=========Dev step========
+Dev loss 0.3794655203819275, accuracy 60.5
+Best dev accuracy 62.1
+
+Epoch 34, batch 0, loss 0.722127377986908
+Epoch 34, batch 100, loss 0.6233139038085938
+Epoch 34, batch 200, loss 0.7731250524520874
+Epoch 34, batch 300, loss 0.6652334928512573
+Epoch 34, batch 400, loss 0.886366069316864
+Epoch 34, batch 500, loss 0.7694692611694336
+Epoch 34, batch 600, loss 0.9460393786430359
+
+=========Dev step========
+Dev loss 0.4044770896434784, accuracy 61.6
+Best dev accuracy 62.1
+
+Epoch 35, batch 0, loss 0.7150103449821472
+Epoch 35, batch 100, loss 0.7541897892951965
+Epoch 35, batch 200, loss 0.739301860332489
+Epoch 35, batch 300, loss 0.802892804145813
+Epoch 35, batch 400, loss 0.7514725923538208
+Epoch 35, batch 500, loss 0.6740663051605225
+Epoch 35, batch 600, loss 0.6251941919326782
+
+=========Dev step========
+Dev loss 0.38149383664131165, accuracy 63.3
+Best dev accuracy 63.3
+
+Epoch 36, batch 0, loss 0.6510749459266663
+Epoch 36, batch 100, loss 0.711090087890625
+Epoch 36, batch 200, loss 0.7177091240882874
+Epoch 36, batch 300, loss 0.6934561133384705
+Epoch 36, batch 400, loss 0.7929599285125732
+Epoch 36, batch 500, loss 0.7974355816841125
+Epoch 36, batch 600, loss 0.7542394399642944
+
+=========Dev step========
+Dev loss 0.3834720849990845, accuracy 64.1
+Best dev accuracy 64.1
+
+Epoch 37, batch 0, loss 0.6703882813453674
+Epoch 37, batch 100, loss 0.8417215347290039
+Epoch 37, batch 200, loss 0.9475684762001038
+Epoch 37, batch 300, loss 0.6809763312339783
+Epoch 37, batch 400, loss 0.5821985602378845
+Epoch 37, batch 500, loss 0.7884215116500854
+Epoch 37, batch 600, loss 0.7569902539253235
+
+=========Dev step========
+Dev loss 0.3808444142341614, accuracy 62.1
+Best dev accuracy 64.1
+
+Epoch 38, batch 0, loss 0.7929954528808594
+Epoch 38, batch 100, loss 0.7472704648971558
+Epoch 38, batch 200, loss 0.7512297034263611
+Epoch 38, batch 300, loss 0.7128549814224243
+Epoch 38, batch 400, loss 0.8000513911247253
+Epoch 38, batch 500, loss 0.7280921339988708
+Epoch 38, batch 600, loss 0.9299474954605103
+
+=========Dev step========
+Dev loss 0.3744729161262512, accuracy 61.6
+Best dev accuracy 64.1
+
+Epoch 39, batch 0, loss 0.7089667916297913
+Epoch 39, batch 100, loss 0.6930378675460815
+Epoch 39, batch 200, loss 0.8732327818870544
+Epoch 39, batch 300, loss 0.8026667237281799
+Epoch 39, batch 400, loss 0.67522132396698
+Epoch 39, batch 500, loss 0.7837291955947876
+Epoch 39, batch 600, loss 0.7276822328567505
+
+=========Dev step========
+Dev loss 0.3849204480648041, accuracy 63.7
+Best dev accuracy 64.1
+
+Epoch 40, batch 0, loss 0.7447806000709534
+Epoch 40, batch 100, loss 0.7674832940101624
+Epoch 40, batch 200, loss 0.8025587797164917
+Epoch 40, batch 300, loss 0.6684610843658447
+Epoch 40, batch 400, loss 0.8651793003082275
+Epoch 40, batch 500, loss 0.7297731041908264
+Epoch 40, batch 600, loss 0.8344477415084839
+
+=========Dev step========
+Dev loss 0.3738851249217987, accuracy 64.2
+Best dev accuracy 64.2
+
+Epoch 41, batch 0, loss 0.805709958076477
+Epoch 41, batch 100, loss 0.6549074053764343
+Epoch 41, batch 200, loss 0.7378221154212952
+Epoch 41, batch 300, loss 0.7130734920501709
+Epoch 41, batch 400, loss 0.6768132448196411
+Epoch 41, batch 500, loss 0.6837806701660156
+Epoch 41, batch 600, loss 0.6966790556907654
+
+=========Dev step========
+Dev loss 0.4012426733970642, accuracy 62.8
+Best dev accuracy 64.2
+
+Epoch 42, batch 0, loss 0.8219297528266907
+Epoch 42, batch 100, loss 0.8478264212608337
+Epoch 42, batch 200, loss 0.819898247718811
+Epoch 42, batch 300, loss 0.7853546738624573
+Epoch 42, batch 400, loss 0.6438562870025635
+Epoch 42, batch 500, loss 0.7125009298324585
+Epoch 42, batch 600, loss 0.8091825842857361
+
+=========Dev step========
+Dev loss 0.3743978440761566, accuracy 64.5
+Best dev accuracy 64.5
+
+Epoch 43, batch 0, loss 0.7836552858352661
+Epoch 43, batch 100, loss 0.7969555854797363
+Epoch 43, batch 200, loss 0.8211724758148193
+Epoch 43, batch 300, loss 0.7238262295722961
+Epoch 43, batch 400, loss 0.6916122436523438
+Epoch 43, batch 500, loss 0.7752414345741272
+Epoch 43, batch 600, loss 0.6109076142311096
+
+=========Dev step========
+Dev loss 0.3794930875301361, accuracy 64.7
+Best dev accuracy 64.7
+
+Epoch 44, batch 0, loss 0.820347011089325
+Epoch 44, batch 100, loss 0.6950037479400635
+Epoch 44, batch 200, loss 0.7865586280822754
+Epoch 44, batch 300, loss 0.742254376411438
+Epoch 44, batch 400, loss 0.7737394571304321
+Epoch 44, batch 500, loss 0.6923984289169312
+Epoch 44, batch 600, loss 0.7262325882911682
+
+=========Dev step========
+Dev loss 0.35583820939064026, accuracy 66.5
+Best dev accuracy 66.5
+
+Epoch 45, batch 0, loss 0.8241876363754272
+Epoch 45, batch 100, loss 0.7119200229644775
+Epoch 45, batch 200, loss 0.7838977575302124
+Epoch 45, batch 300, loss 0.7394738793373108
+Epoch 45, batch 400, loss 0.8370296359062195
+Epoch 45, batch 500, loss 0.7216663360595703
+Epoch 45, batch 600, loss 0.7457692623138428
+
+=========Dev step========
+Dev loss 0.39149439334869385, accuracy 60.3
+Best dev accuracy 66.5
+
+Epoch 46, batch 0, loss 0.8714345097541809
+Epoch 46, batch 100, loss 0.7035408020019531
+Epoch 46, batch 200, loss 0.9088788032531738
+Epoch 46, batch 300, loss 0.7369305491447449
+Epoch 46, batch 400, loss 0.7004653811454773
+Epoch 46, batch 500, loss 0.6839186549186707
+Epoch 46, batch 600, loss 0.6923310160636902
+
+=========Dev step========
+Dev loss 0.45817920565605164, accuracy 53.5
+Best dev accuracy 66.5
+
+Epoch 47, batch 0, loss 0.9235199689865112
+Epoch 47, batch 100, loss 0.7153269052505493
+Epoch 47, batch 200, loss 0.7932410836219788
+Epoch 47, batch 300, loss 0.6678035855293274
+Epoch 47, batch 400, loss 0.7410212159156799
+Epoch 47, batch 500, loss 0.7001499533653259
+Epoch 47, batch 600, loss 0.8978576064109802
+
+=========Dev step========
+Dev loss 0.3498058021068573, accuracy 65.0
+Best dev accuracy 66.5
+
+Epoch 48, batch 0, loss 0.7250701189041138
+Epoch 48, batch 100, loss 0.566616415977478
+Epoch 48, batch 200, loss 0.7512252926826477
+Epoch 48, batch 300, loss 0.7243583798408508
+Epoch 48, batch 400, loss 0.6823901534080505
+Epoch 48, batch 500, loss 0.6955212354660034
+Epoch 48, batch 600, loss 0.7146981358528137
+
+=========Dev step========
+Dev loss 0.4158417880535126, accuracy 59.9
+Best dev accuracy 66.5
+
+Epoch 49, batch 0, loss 0.6906647682189941
+Epoch 49, batch 100, loss 0.7878944277763367
+Epoch 49, batch 200, loss 0.6130700707435608
+Epoch 49, batch 300, loss 0.7765400409698486
+Epoch 49, batch 400, loss 0.6150305271148682
+Epoch 49, batch 500, loss 0.6884279251098633
+Epoch 49, batch 600, loss 0.6587364673614502
+
+=========Dev step========
+Dev loss 0.352448433637619, accuracy 66.3
+Best dev accuracy 66.5
+
+Epoch 50, batch 0, loss 0.7063944935798645
+Epoch 50, batch 100, loss 0.7027314901351929
+Epoch 50, batch 200, loss 0.7101916670799255
+Epoch 50, batch 300, loss 0.7854927182197571
+Epoch 50, batch 400, loss 0.6325471997261047
+Epoch 50, batch 500, loss 0.7391133308410645
+Epoch 50, batch 600, loss 0.7123733758926392
+
+=========Dev step========
+Dev loss 0.34764188528060913, accuracy 65.9
+Best dev accuracy 66.5
+
+Epoch 51, batch 0, loss 0.8703644275665283
+Epoch 51, batch 100, loss 0.7090678215026855
+Epoch 51, batch 200, loss 0.6556665301322937
+Epoch 51, batch 300, loss 0.6915577054023743
+Epoch 51, batch 400, loss 0.6824325919151306
+Epoch 51, batch 500, loss 0.7410447597503662
+Epoch 51, batch 600, loss 0.7226877212524414
+
+=========Dev step========
+Dev loss 0.38477471470832825, accuracy 64.1
+Best dev accuracy 66.5
+
+Epoch 52, batch 0, loss 0.5984223484992981
+Epoch 52, batch 100, loss 0.7972312569618225
+Epoch 52, batch 200, loss 0.7006963491439819
+Epoch 52, batch 300, loss 0.7536922097206116
+Epoch 52, batch 400, loss 0.7702478766441345
+Epoch 52, batch 500, loss 0.8333222270011902
+Epoch 52, batch 600, loss 0.7959924340248108
+
+=========Dev step========
+Dev loss 0.36669015884399414, accuracy 66.4
+Best dev accuracy 66.5
+
+Epoch 53, batch 0, loss 0.7478057742118835
+Epoch 53, batch 100, loss 0.5850523710250854
+Epoch 53, batch 200, loss 0.7063252329826355
+Epoch 53, batch 300, loss 0.5558170080184937
+Epoch 53, batch 400, loss 0.7728267312049866
+Epoch 53, batch 500, loss 0.6280346512794495
+Epoch 53, batch 600, loss 0.5073889493942261
+
+=========Dev step========
+Dev loss 0.376285582780838, accuracy 66.10000000000001
+Best dev accuracy 66.5
+
+Epoch 54, batch 0, loss 0.9096348881721497
+Epoch 54, batch 100, loss 0.6464851498603821
+Epoch 54, batch 200, loss 0.7233720421791077
+Epoch 54, batch 300, loss 0.8194212317466736
+Epoch 54, batch 400, loss 0.8216103315353394
+Epoch 54, batch 500, loss 0.6890987157821655
+Epoch 54, batch 600, loss 0.6587541103363037
+
+=========Dev step========
+Dev loss 0.3691439926624298, accuracy 64.7
+Best dev accuracy 66.5
+
+Epoch 55, batch 0, loss 0.6643585562705994
+Epoch 55, batch 100, loss 0.7593443989753723
+Epoch 55, batch 200, loss 0.6209186315536499
+Epoch 55, batch 300, loss 0.7551034092903137
+Epoch 55, batch 400, loss 0.896872341632843
+Epoch 55, batch 500, loss 0.7577351331710815
+Epoch 55, batch 600, loss 0.5466222763061523
+
+=========Dev step========
+Dev loss 0.34576699137687683, accuracy 67.10000000000001
+Best dev accuracy 67.10000000000001
+
+Epoch 56, batch 0, loss 0.5948900580406189
+Epoch 56, batch 100, loss 0.8147662878036499
+Epoch 56, batch 200, loss 0.6895634531974792
+Epoch 56, batch 300, loss 0.8861082792282104
+Epoch 56, batch 400, loss 0.7425308227539062
+Epoch 56, batch 500, loss 0.6793408393859863
+Epoch 56, batch 600, loss 0.7902171611785889
+
+=========Dev step========
+Dev loss 0.3483533561229706, accuracy 66.3
+Best dev accuracy 67.10000000000001
+
+Epoch 57, batch 0, loss 0.7578874826431274
+Epoch 57, batch 100, loss 0.6015677452087402
+Epoch 57, batch 200, loss 0.7016693949699402
+Epoch 57, batch 300, loss 0.7136827707290649
+Epoch 57, batch 400, loss 0.8466846942901611
+Epoch 57, batch 500, loss 0.8263718485832214
+Epoch 57, batch 600, loss 0.7430716156959534
+
+=========Dev step========
+Dev loss 0.38609904050827026, accuracy 66.4
+Best dev accuracy 67.10000000000001
+
+Epoch 58, batch 0, loss 0.7633443474769592
+Epoch 58, batch 100, loss 0.7880920767784119
+Epoch 58, batch 200, loss 0.7325071692466736
+Epoch 58, batch 300, loss 0.7258410453796387
+Epoch 58, batch 400, loss 0.6468145847320557
+Epoch 58, batch 500, loss 0.5886050462722778
+Epoch 58, batch 600, loss 0.6874189972877502
+
+=========Dev step========
+Dev loss 0.34200596809387207, accuracy 67.2
+Best dev accuracy 67.2
+
+Epoch 59, batch 0, loss 0.7528665661811829
+Epoch 59, batch 100, loss 0.6574573516845703
+Epoch 59, batch 200, loss 0.6605533957481384
+Epoch 59, batch 300, loss 0.6999049186706543
+Epoch 59, batch 400, loss 0.6869676113128662
+Epoch 59, batch 500, loss 0.7237860560417175
+Epoch 59, batch 600, loss 0.7493461966514587
+
+=========Dev step========
+Dev loss 0.38810691237449646, accuracy 64.3
+Best dev accuracy 67.2
+
+Epoch 60, batch 0, loss 0.8618696928024292
+Epoch 60, batch 100, loss 0.7854685187339783
+Epoch 60, batch 200, loss 0.7367212772369385
+Epoch 60, batch 300, loss 0.7977187633514404
+Epoch 60, batch 400, loss 0.872277557849884
+Epoch 60, batch 500, loss 0.7285408973693848
+Epoch 60, batch 600, loss 0.7201197147369385
+
+=========Dev step========
+Dev loss 0.35686612129211426, accuracy 67.80000000000001
+Best dev accuracy 67.80000000000001
+
+Epoch 61, batch 0, loss 0.7800647020339966
+Epoch 61, batch 100, loss 0.6872063279151917
+Epoch 61, batch 200, loss 0.7039554119110107
+Epoch 61, batch 300, loss 0.6982499957084656
+Epoch 61, batch 400, loss 0.6842361688613892
+Epoch 61, batch 500, loss 0.7909003496170044
+Epoch 61, batch 600, loss 0.6843100190162659
+
+=========Dev step========
+Dev loss 0.34210819005966187, accuracy 68.4
+Best dev accuracy 68.4
+
+Epoch 62, batch 0, loss 0.8288261294364929
+Epoch 62, batch 100, loss 0.6433634161949158
+Epoch 62, batch 200, loss 0.651546835899353
+Epoch 62, batch 300, loss 0.5409641265869141
+Epoch 62, batch 400, loss 0.7638124227523804
+Epoch 62, batch 500, loss 0.6518034338951111
+Epoch 62, batch 600, loss 0.7125787138938904
+
+=========Dev step========
+Dev loss 0.35054540634155273, accuracy 67.5
+Best dev accuracy 68.4
+
+Epoch 63, batch 0, loss 0.8157241344451904
+Epoch 63, batch 100, loss 0.7163320779800415
+Epoch 63, batch 200, loss 0.7525018453598022
+Epoch 63, batch 300, loss 0.7118998765945435
+Epoch 63, batch 400, loss 0.8476945161819458
+Epoch 63, batch 500, loss 0.6563571691513062
+Epoch 63, batch 600, loss 0.8240547776222229
+
+=========Dev step========
+Dev loss 0.3484921455383301, accuracy 68.0
+Best dev accuracy 68.4
+
+Epoch 64, batch 0, loss 0.6160637736320496
+Epoch 64, batch 100, loss 0.739530086517334
+Epoch 64, batch 200, loss 0.7106785178184509
+Epoch 64, batch 300, loss 0.6038842797279358
+Epoch 64, batch 400, loss 0.6862298250198364
+Epoch 64, batch 500, loss 0.6510927081108093
+Epoch 64, batch 600, loss 0.8309658765792847
+
+=========Dev step========
+Dev loss 0.349923700094223, accuracy 67.7
+Best dev accuracy 68.4
+
+Epoch 65, batch 0, loss 0.676665723323822
+Epoch 65, batch 100, loss 0.704953134059906
+Epoch 65, batch 200, loss 0.6352869272232056
+Epoch 65, batch 300, loss 0.8185617923736572
+Epoch 65, batch 400, loss 0.7149202823638916
+Epoch 65, batch 500, loss 0.7658146619796753
+Epoch 65, batch 600, loss 0.6138868927955627
+
+=========Dev step========
+Dev loss 0.3469183146953583, accuracy 68.60000000000001
+Best dev accuracy 68.60000000000001
+
+Epoch 66, batch 0, loss 0.6992543935775757
+Epoch 66, batch 100, loss 0.8515719175338745
+Epoch 66, batch 200, loss 0.7746708393096924
+Epoch 66, batch 300, loss 0.8401399254798889
+Epoch 66, batch 400, loss 0.621165931224823
+Epoch 66, batch 500, loss 0.7395862936973572
+Epoch 66, batch 600, loss 0.5241341590881348
+
+=========Dev step========
+Dev loss 0.34833458065986633, accuracy 68.5
+Best dev accuracy 68.60000000000001
+
+Epoch 67, batch 0, loss 0.7727102041244507
+Epoch 67, batch 100, loss 0.6802806258201599
+Epoch 67, batch 200, loss 0.6990312337875366
+Epoch 67, batch 300, loss 0.694926917552948
+Epoch 67, batch 400, loss 0.6980622410774231
+Epoch 67, batch 500, loss 0.7833117842674255
+Epoch 67, batch 600, loss 0.7379626631736755
+
+=========Dev step========
+Dev loss 0.36462727189064026, accuracy 67.30000000000001
+Best dev accuracy 68.60000000000001
+
+Epoch 68, batch 0, loss 0.8448981642723083
+Epoch 68, batch 100, loss 0.796848475933075
+Epoch 68, batch 200, loss 0.6429150700569153
+Epoch 68, batch 300, loss 0.7662201523780823
+Epoch 68, batch 400, loss 0.6041248440742493
+Epoch 68, batch 500, loss 0.6495290994644165
+Epoch 68, batch 600, loss 0.6321555972099304
+
+=========Dev step========
+Dev loss 0.33942654728889465, accuracy 67.80000000000001
+Best dev accuracy 68.60000000000001
+
+Epoch 69, batch 0, loss 0.7178634405136108
+Epoch 69, batch 100, loss 0.6721835732460022
+Epoch 69, batch 200, loss 0.6990278363227844
+Epoch 69, batch 300, loss 0.6312602758407593
+Epoch 69, batch 400, loss 0.6755025386810303
+Epoch 69, batch 500, loss 0.6388879418373108
+Epoch 69, batch 600, loss 0.7813214659690857
+
+=========Dev step========
+Dev loss 0.3534323573112488, accuracy 68.4
+Best dev accuracy 68.60000000000001
+
+Epoch 70, batch 0, loss 0.7335121631622314
+Epoch 70, batch 100, loss 0.5997474789619446
+Epoch 70, batch 200, loss 0.7048971652984619
+Epoch 70, batch 300, loss 0.7942565679550171
+Epoch 70, batch 400, loss 0.7172192931175232
+Epoch 70, batch 500, loss 0.7416409254074097
+Epoch 70, batch 600, loss 0.7456836700439453
+
+=========Dev step========
+Dev loss 0.35058704018592834, accuracy 68.0
+Best dev accuracy 68.60000000000001
+
+Epoch 71, batch 0, loss 0.7393566370010376
+Epoch 71, batch 100, loss 0.7544630169868469
+Epoch 71, batch 200, loss 0.6902738809585571
+Epoch 71, batch 300, loss 0.6578254103660583
+Epoch 71, batch 400, loss 0.6962683796882629
+Epoch 71, batch 500, loss 0.6321302652359009
+Epoch 71, batch 600, loss 0.885159969329834
+
+=========Dev step========
+Dev loss 0.3354145586490631, accuracy 68.8
+Best dev accuracy 68.8
+
+Epoch 72, batch 0, loss 0.69761061668396
+Epoch 72, batch 100, loss 0.730757474899292
+Epoch 72, batch 200, loss 0.6343784928321838
+Epoch 72, batch 300, loss 0.781436026096344
+Epoch 72, batch 400, loss 0.5275739431381226
+Epoch 72, batch 500, loss 0.7755148410797119
+Epoch 72, batch 600, loss 0.7565912008285522
+
+=========Dev step========
+Dev loss 0.3427962362766266, accuracy 69.6
+Best dev accuracy 69.6
+
+Epoch 73, batch 0, loss 0.6381465196609497
+Epoch 73, batch 100, loss 0.7148188352584839
+Epoch 73, batch 200, loss 0.695176899433136
+Epoch 73, batch 300, loss 0.695932924747467
+Epoch 73, batch 400, loss 0.7935171723365784
+Epoch 73, batch 500, loss 0.7818529009819031
+Epoch 73, batch 600, loss 0.6781442761421204
+
+=========Dev step========
+Dev loss 0.3621733784675598, accuracy 66.10000000000001
+Best dev accuracy 69.6
+
+Epoch 74, batch 0, loss 0.7496013641357422
+Epoch 74, batch 100, loss 0.6784926056861877
+Epoch 74, batch 200, loss 0.7795847058296204
+Epoch 74, batch 300, loss 0.7037196159362793
+Epoch 74, batch 400, loss 0.6056729555130005
+Epoch 74, batch 500, loss 0.6997584700584412
+Epoch 74, batch 600, loss 0.6825054287910461
+
+=========Dev step========
+Dev loss 0.3527504801750183, accuracy 69.69999999999999
+Best dev accuracy 69.69999999999999
+
+Epoch 75, batch 0, loss 0.5584403872489929
+Epoch 75, batch 100, loss 0.6975567936897278
+Epoch 75, batch 200, loss 0.7132838368415833
+Epoch 75, batch 300, loss 0.6109097599983215
+Epoch 75, batch 400, loss 0.6761063933372498
+Epoch 75, batch 500, loss 0.710500955581665
+Epoch 75, batch 600, loss 0.6232388019561768
+
+=========Dev step========
+Dev loss 0.3594954311847687, accuracy 67.30000000000001
+Best dev accuracy 69.69999999999999
+
+Epoch 76, batch 0, loss 0.7185429930686951
+Epoch 76, batch 100, loss 0.7013537287712097
+Epoch 76, batch 200, loss 0.6359975337982178
+Epoch 76, batch 300, loss 0.8025522828102112
+Epoch 76, batch 400, loss 0.6338484883308411
+Epoch 76, batch 500, loss 0.6828352808952332
+Epoch 76, batch 600, loss 0.7773440480232239
+
+=========Dev step========
+Dev loss 0.32493773102760315, accuracy 71.8
+Best dev accuracy 71.8
+
+Epoch 77, batch 0, loss 0.6964922547340393
+Epoch 77, batch 100, loss 0.579596221446991
+Epoch 77, batch 200, loss 0.70772784948349
+Epoch 77, batch 300, loss 0.7355736494064331
+Epoch 77, batch 400, loss 0.6838491559028625
+Epoch 77, batch 500, loss 0.7752217650413513
+Epoch 77, batch 600, loss 0.629538357257843
+
+=========Dev step========
+Dev loss 0.3355996012687683, accuracy 70.5
+Best dev accuracy 71.8
+
+Epoch 78, batch 0, loss 0.7266741394996643
+Epoch 78, batch 100, loss 0.6465884447097778
+Epoch 78, batch 200, loss 0.7547053098678589
+Epoch 78, batch 300, loss 0.6311689615249634
+Epoch 78, batch 400, loss 0.7511783242225647
+Epoch 78, batch 500, loss 0.7281576991081238
+Epoch 78, batch 600, loss 0.6809521913528442
+
+=========Dev step========
+Dev loss 0.3391090929508209, accuracy 69.8
+Best dev accuracy 71.8
+
+Epoch 79, batch 0, loss 0.5251590609550476
+Epoch 79, batch 100, loss 0.7064751386642456
+Epoch 79, batch 200, loss 0.8503897786140442
+Epoch 79, batch 300, loss 0.7995339632034302
+Epoch 79, batch 400, loss 0.7443720698356628
+Epoch 79, batch 500, loss 0.6997918486595154
+Epoch 79, batch 600, loss 0.649768590927124
+
+=========Dev step========
+Dev loss 0.3263230621814728, accuracy 70.89999999999999
+Best dev accuracy 71.8
+
+Epoch 80, batch 0, loss 0.6041921377182007
+Epoch 80, batch 100, loss 0.6963346004486084
+Epoch 80, batch 200, loss 0.7183728218078613
+Epoch 80, batch 300, loss 0.749407172203064
+Epoch 80, batch 400, loss 0.6768504977226257
+Epoch 80, batch 500, loss 0.6876960396766663
+Epoch 80, batch 600, loss 0.8350460529327393
+
+=========Dev step========
+Dev loss 0.3448919355869293, accuracy 71.0
+Best dev accuracy 71.8
+
+Epoch 81, batch 0, loss 0.7440454959869385
+Epoch 81, batch 100, loss 0.766171395778656
+Epoch 81, batch 200, loss 0.6522731781005859
+Epoch 81, batch 300, loss 0.6538934111595154
+Epoch 81, batch 400, loss 0.6775766015052795
+Epoch 81, batch 500, loss 0.7653144001960754
+Epoch 81, batch 600, loss 0.7570154070854187
+
+=========Dev step========
+Dev loss 0.35321688652038574, accuracy 65.3
+Best dev accuracy 71.8
+
+Epoch 82, batch 0, loss 0.6086795926094055
+Epoch 82, batch 100, loss 0.6716946959495544
+Epoch 82, batch 200, loss 0.6532779932022095
+Epoch 82, batch 300, loss 0.7621486783027649
+Epoch 82, batch 400, loss 0.6589909195899963
+Epoch 82, batch 500, loss 0.6957246661186218
+Epoch 82, batch 600, loss 0.7399929761886597
+
+=========Dev step========
+Dev loss 0.3288171589374542, accuracy 70.6
+Best dev accuracy 71.8
+
+Epoch 83, batch 0, loss 0.6488721370697021
+Epoch 83, batch 100, loss 0.6699212193489075
+Epoch 83, batch 200, loss 0.6828612685203552
+Epoch 83, batch 300, loss 0.7681068181991577
+Epoch 83, batch 400, loss 0.7547058463096619
+Epoch 83, batch 500, loss 0.6346516013145447
+Epoch 83, batch 600, loss 0.6536442041397095
+
+=========Dev step========
+Dev loss 0.3328118920326233, accuracy 69.89999999999999
+Best dev accuracy 71.8
+
+Epoch 84, batch 0, loss 0.6249389052391052
+Epoch 84, batch 100, loss 0.7101994752883911
+Epoch 84, batch 200, loss 0.6379680037498474
+Epoch 84, batch 300, loss 0.6647517681121826
+Epoch 84, batch 400, loss 0.6819814443588257
+Epoch 84, batch 500, loss 0.6563293933868408
+Epoch 84, batch 600, loss 0.7312150001525879
+
+=========Dev step========
+Dev loss 0.3635062277317047, accuracy 65.3
+Best dev accuracy 71.8
+
+Epoch 85, batch 0, loss 0.7261489629745483
+Epoch 85, batch 100, loss 0.7385679483413696
+Epoch 85, batch 200, loss 0.678435742855072
+Epoch 85, batch 300, loss 0.7024733424186707
+Epoch 85, batch 400, loss 0.646381676197052
+Epoch 85, batch 500, loss 0.5454277992248535
+Epoch 85, batch 600, loss 0.6452943086624146
+
+=========Dev step========
+Dev loss 0.3608691692352295, accuracy 68.60000000000001
+Best dev accuracy 71.8
+
+Epoch 86, batch 0, loss 0.8033363223075867
+Epoch 86, batch 100, loss 0.7817712426185608
+Epoch 86, batch 200, loss 0.7020305395126343
+Epoch 86, batch 300, loss 0.780771017074585
+Epoch 86, batch 400, loss 0.6364628672599792
+Epoch 86, batch 500, loss 0.6322585344314575
+Epoch 86, batch 600, loss 0.6432949900627136
+
+=========Dev step========
+Dev loss 0.3253244161605835, accuracy 69.89999999999999
+Best dev accuracy 71.8
+
+Epoch 87, batch 0, loss 0.6651747226715088
+Epoch 87, batch 100, loss 0.6650593280792236
+Epoch 87, batch 200, loss 0.5387511253356934
+Epoch 87, batch 300, loss 0.812679648399353
+Epoch 87, batch 400, loss 0.5874919295310974
+Epoch 87, batch 500, loss 0.6892672777175903
+Epoch 87, batch 600, loss 0.6683512926101685
+
+=========Dev step========
+Dev loss 0.3386422395706177, accuracy 70.1
+Best dev accuracy 71.8
+
+Epoch 88, batch 0, loss 0.7316544055938721
+Epoch 88, batch 100, loss 0.7779629230499268
+Epoch 88, batch 200, loss 0.7044828534126282
+Epoch 88, batch 300, loss 0.627292811870575
+Epoch 88, batch 400, loss 0.7291258573532104
+Epoch 88, batch 500, loss 0.7273316979408264
+Epoch 88, batch 600, loss 0.6764363646507263
+
+=========Dev step========
+Dev loss 0.35946059226989746, accuracy 70.7
+Best dev accuracy 71.8
+
+Epoch 89, batch 0, loss 0.668630838394165
+Epoch 89, batch 100, loss 0.7686571478843689
+Epoch 89, batch 200, loss 0.6997623443603516
+Epoch 89, batch 300, loss 0.7899013161659241
+Epoch 89, batch 400, loss 0.7792224884033203
+Epoch 89, batch 500, loss 0.5833954215049744
+Epoch 89, batch 600, loss 0.7566044330596924
+
+=========Dev step========
+Dev loss 0.35817357897758484, accuracy 69.69999999999999
+Best dev accuracy 71.8
+
+Epoch 90, batch 0, loss 0.5473941564559937
+Epoch 90, batch 100, loss 0.7334394454956055
+Epoch 90, batch 200, loss 0.6659530401229858
+Epoch 90, batch 300, loss 0.7428622245788574
+Epoch 90, batch 400, loss 0.7606385946273804
+Epoch 90, batch 500, loss 0.6637794971466064
+Epoch 90, batch 600, loss 0.7557727098464966
+
+=========Dev step========
+Dev loss 0.3418732285499573, accuracy 69.19999999999999
+Best dev accuracy 71.8
+
+Epoch 91, batch 0, loss 0.7273146510124207
+Epoch 91, batch 100, loss 0.6393521428108215
+Epoch 91, batch 200, loss 0.816582977771759
+Epoch 91, batch 300, loss 0.8377256989479065
+Epoch 91, batch 400, loss 0.7839938998222351
+Epoch 91, batch 500, loss 0.6004651784896851
+Epoch 91, batch 600, loss 0.6527614593505859
+
+=========Dev step========
+Dev loss 0.3190295994281769, accuracy 70.89999999999999
+Best dev accuracy 71.8
+
+Epoch 92, batch 0, loss 0.6420120000839233
+Epoch 92, batch 100, loss 0.6906266212463379
+Epoch 92, batch 200, loss 0.7270456552505493
+Epoch 92, batch 300, loss 0.8491698503494263
+Epoch 92, batch 400, loss 0.6882104873657227
+Epoch 92, batch 500, loss 0.6447691321372986
+Epoch 92, batch 600, loss 0.6112865805625916
+
+=========Dev step========
+Dev loss 0.32346755266189575, accuracy 70.5
+Best dev accuracy 71.8
+
+Epoch 93, batch 0, loss 0.6317873597145081
+Epoch 93, batch 100, loss 0.7269294261932373
+Epoch 93, batch 200, loss 0.5462131500244141
+Epoch 93, batch 300, loss 0.666336178779602
+Epoch 93, batch 400, loss 0.7240604758262634
+Epoch 93, batch 500, loss 0.5928741693496704
+Epoch 93, batch 600, loss 0.8299852013587952
+
+=========Dev step========
+Dev loss 0.3399055302143097, accuracy 71.0
+Best dev accuracy 71.8
+
+Epoch 94, batch 0, loss 0.8119621872901917
+Epoch 94, batch 100, loss 0.6695351600646973
+Epoch 94, batch 200, loss 0.7720546722412109
+Epoch 94, batch 300, loss 0.6662853956222534
+Epoch 94, batch 400, loss 0.7841168642044067
+Epoch 94, batch 500, loss 0.666532039642334
+Epoch 94, batch 600, loss 0.7317294478416443
+
+=========Dev step========
+Dev loss 0.34174904227256775, accuracy 69.8
+Best dev accuracy 71.8
+
+Epoch 95, batch 0, loss 0.6270906925201416
+Epoch 95, batch 100, loss 0.673855721950531
+Epoch 95, batch 200, loss 0.7019200921058655
+Epoch 95, batch 300, loss 0.6140163540840149
+Epoch 95, batch 400, loss 0.7067623138427734
+Epoch 95, batch 500, loss 0.7068463563919067
+Epoch 95, batch 600, loss 0.6687918305397034
+
+=========Dev step========
+Dev loss 0.35460275411605835, accuracy 70.0
+Best dev accuracy 71.8
+
+Epoch 96, batch 0, loss 0.6237933039665222
+Epoch 96, batch 100, loss 0.6932862401008606
+Epoch 96, batch 200, loss 0.6346403360366821
+Epoch 96, batch 300, loss 0.7319987416267395
+Epoch 96, batch 400, loss 0.6395405530929565
+Epoch 96, batch 500, loss 0.6969063878059387
+Epoch 96, batch 600, loss 0.730692982673645
+
+=========Dev step========
+Dev loss 0.34620895981788635, accuracy 70.8
+Best dev accuracy 71.8
+
+Epoch 97, batch 0, loss 0.8502941131591797
+Epoch 97, batch 100, loss 0.656995415687561
+Epoch 97, batch 200, loss 0.6622989177703857
+Epoch 97, batch 300, loss 0.5124691128730774
+Epoch 97, batch 400, loss 0.7414082288742065
+Epoch 97, batch 500, loss 0.6644513607025146
+Epoch 97, batch 600, loss 0.6912769675254822
+
+=========Dev step========
+Dev loss 0.34509745240211487, accuracy 67.9
+Best dev accuracy 71.8
+
+Epoch 98, batch 0, loss 0.729421854019165
+Epoch 98, batch 100, loss 0.5556761026382446
+Epoch 98, batch 200, loss 0.7491394877433777
+Epoch 98, batch 300, loss 0.7379041314125061
+Epoch 98, batch 400, loss 0.6820987462997437
+Epoch 98, batch 500, loss 0.72538822889328
+Epoch 98, batch 600, loss 0.6812208294868469
+
+=========Dev step========
+Dev loss 0.3310185670852661, accuracy 71.7
+Best dev accuracy 71.8
+
+Epoch 99, batch 0, loss 0.6698079109191895
+Epoch 99, batch 100, loss 0.7129350900650024
+Epoch 99, batch 200, loss 0.6254618763923645
+Epoch 99, batch 300, loss 0.6429625153541565
+Epoch 99, batch 400, loss 0.6083541512489319
+Epoch 99, batch 500, loss 0.7512419819831848
+Epoch 99, batch 600, loss 0.6734235286712646
+
+=========Dev step========
+Dev loss 0.306413859128952, accuracy 72.89999999999999
+Best dev accuracy 72.89999999999999
