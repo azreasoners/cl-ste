@@ -5,28 +5,24 @@ Injecting Logical Constraints into Neural Networks via Straight-Through-Estimato
 This repository provides the codes, instructions, and logs for all the experiments reported in the paper "Injecting Logical Constraints into Neural Networks via Straight-Through-Estimators".
 
 ## Installation
-1. Install Anaconda according to its [installation page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
-2. Create a new environment using the following commands in terminal.
+0. Install Anaconda according to its [installation page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
+1. Create a new environment using the following commands in terminal.
 ```bash
 conda create -n ste python=3.7
 conda activate ste
 ```
-3. Install tqdm, Numpy, Pandas, and wandb
-```bash
-conda install -c anaconda tqdm numpy pandas
-pip install wandb
+2. Install wandb for visualization, the DGL package for GNN experiments, and Pandas
 ```
-4. Install Pytorch according to its [Get-Started page](https://pytorch.org/get-started/locally/). Below is an example command we used on Linux with cuda 10.2.
+pip install wandb dgl-cu102 dglgo -f https://data.dgl.ai/wheels/repo.html
+conda install pandas
+```
+3. Install Pytorch according to its [Get-Started page](https://pytorch.org/get-started/locally/). Below is an example command we used on Linux with cuda 10.2.
 ```bash
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 ```
 or for CPU only
 ```bash
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
-```
-5. Install the DGL package for GNN experiments
-```
-conda install -c dglteam dgl-cuda10.2 requests
 ```
 
 ## File/Folder Description
